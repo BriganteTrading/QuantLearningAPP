@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quant Math Library</title>
+<style>body{margin:0;background:#070b14;color:#eef4fb;font:14px system-ui}main{max-width:1000px;margin:auto;padding:28px}input{width:100%;padding:13px;background:#101827;border:1px solid #263650;color:white;border-radius:9px}article{margin:10px 0;padding:16px;background:#0d1422;border:1px solid #1d2940;border-radius:10px}.m{font-size:20px;text-align:center;padding:12px}small{color:#8290a8}</style>
+</head><body><main><h1>Quant Math — 2,400 Card Library</h1><p>Search the expanded curriculum. Each card contains formula, symbols, intuition, worked example and practice.</p><input id="q" placeholder="Search topic, formula or title…"><div id="out"></div></main>
+<script>
+const out=document.querySelector('#out'),q=document.querySelector('#q');
+fetch('./data/lessons.json').then(r=>r.json()).then(d=>{
+ function draw(){let s=q.value.toLowerCase();let a=d.cards.filter(x=>(x.title+x.topic+x.formula).toLowerCase().includes(s)).slice(0,100);
+ out.innerHTML=a.map(x=>`<article><small>Level ${String(x.level).padStart(2,'0')} · ${x.topic} · ${x.difficulty}</small><h2>${x.title}</h2><div class="m">\\(${x.formula}\\)</div><p><b>Symbols:</b> ${x.variables.map(v=>v.symbol+' = '+v.meaning).join(' · ')}</p><p>${x.intuition}</p><p><b>Example:</b> ${x.workedExample.join(' → ')}</p><p><b>Practice:</b> ${x.question}</p></article>`).join('')}
+ q.oninput=draw;draw();
+});
+</script><script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body></html>
