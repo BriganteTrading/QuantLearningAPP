@@ -1,15 +1,1 @@
-{
-  "name": "quant-math",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vite": "^7.1.3"
-  },
-  "devDependencies": {}
-}
+{"name":"quant-math-curated","version":"3.0.0","private":true,"scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},"devDependencies":{"vite":"latest"}}
