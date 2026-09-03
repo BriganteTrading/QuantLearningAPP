@@ -1,5 +1,168 @@
 (() => {
   'use strict';
+
+function escapeHtml(value){
+  return String(value ?? "")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+}
+
+function lessonRichText(value){
+  if(value==null) return "";
+  let s=String(value).replace(/\r\n?/g,"\n");
+  // Decode the exact escaped Markdown representation seen in the app.
+  s=s.replace(/\\([\\`*_[\]{}()#+.!|>~-])/g,"$1");
+  s=s.replace(/\\n/g,"\n");
+
+  // Convert common Markdown blocks to HTML. Escape plain text first, while
+  // preserving only our generated tags.
+  const lines=s.split("\n"), out=[];
+  let list=null;
+  const close=()=>{if(list){out.push(`</${list}>`);list=null;}};
+  const inline=(v)=>{
+    let x=escapeHtml(v);
+    x=x.replace(/\$([^$\n]+)\$/g,'<span class="math-inline">$1</span>');
+    x=x.replace(/`([^`\n]+)`/g,'<code>$1</code>');
+    x=x.replace(/\*\*([^*\n]+)\*\*/g,'<strong>$1</strong>');
+    x=x.replace(/__([^_\n]+)__/g,'<strong>$1</strong>');
+    x=x.replace(/\*([^*\n]+)\*/g,'<em>$1</em>');
+    return x;
+  };
+  for(const raw of lines){
+    const line=raw.trim();
+    if(!line){close();continue;}
+    let m=line.match(/^(#{1,6})\s+(.+)$/);
+    if(m){
+      close();
+      const n=Math.min(m[1].length,4);
+      out.push(`<h${n}>${inline(m[2])}</h${n}>`);
+      continue;
+    }
+    m=line.match(/^(\d+)\.\s+(.+)$/);
+    if(m){
+      if(list!=="ol"){close();out.push("<ol>");list="ol";}
+      out.push(`<li>${inline(m[2])}</li>`);
+      continue;
+    }
+    m=line.match(/^[-*+]\s+(.+)$/);
+    if(m){
+      if(list!=="ul"){close();out.push("<ul>");list="ul";}
+      out.push(`<li>${inline(m[1])}</li>`);
+      continue;
+    }
+    close();
+    out.push(`<p>${inline(line)}</p>`);
+  }
+  close();
+  return out.join("");
+}
+
+function renderFormula(value){
+  let s=escapeHtml(value);
+  s=s.replace(/\\frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g,'<span class="frac"><span class="num">$1</span><span class="den">$2</span></span>');
+  s=s.replace(/\\sqrt\s*\{([^{}]*)\}/g,'<span class="sqrt">√<span>$1</span></span>');
+  const greek={Delta:"Δ",Gamma:"Γ",Theta:"Θ",sigma:"σ",mu:"μ",rho:"ρ",tau:"τ",phi:"φ",pi:"π",lambda:"λ",alpha:"α",beta:"β",infty:"∞",approx:"≈",leq:"≤",geq:"≥",cdot:"·",times:"×"};
+  for(const [k,v] of Object.entries(greek)) s=s.replace(new RegExp("\\\\\\\\"+k,"g"),v);
+  s=s.replace(/\^([A-Za-z0-9()+\-]+)/g,"<sup>$1</sup>").replace(/_([A-Za-z0-9]+)/g,"<sub>$1</sub>");
+  return s;
+}
+function escapeHtml(value){
+  return String(value ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+}
+function renderFormula(value){
+  let s=escapeHtml(value);
+  s=s.replace(/\\frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g,'<span class="frac"><span class="num">$1</span><span class="den">$2</span></span>');
+  const g={Delta:"Δ",Gamma:"Γ",Theta:"Θ",sigma:"σ",mu:"μ",rho:"ρ",tau:"τ",phi:"φ",pi:"π",lambda:"λ",alpha:"α",beta:"β",infty:"∞",approx:"≈",leq:"≤",geq:"≥",cdot:"·",times:"×"};
+  for(const [k,v] of Object.entries(g)) s=s.replace(new RegExp("\\\\\\\\"+k,"g"),v);
+  return s.replace(/\^([A-Za-z0-9()+\-]+)/g,"<sup>$1</sup>").replace(/_([A-Za-z0-9]+)/g,"<sub>$1</sub>");
+}
+function renderInline(value){
+  let s=escapeHtml(value);
+  // Markdown backslash escapes: \###, \*, \., \_, etc. are literal
+  // source escapes and must become normal Markdown before parsing.
+  s=s.replace(/\\([\\`*_[\]{}()#+.!|>~-])/g,"$1");
+  s=s.replace(/\$([^$\n]+)\$/g,'<span class="math-inline">$1</span>');
+  s=s.replace(/`([^`\n]+)`/g,'<code>$1</code>');
+  s=s.replace(/\*\*([^*\n]+)\*\*/g,'<strong>$1</strong>');
+  s=s.replace(/__([^_\n]+)__/g,'<strong>$1</strong>');
+  s=s.replace(/\*([^*\n]+)\*/g,'<em>$1</em>');
+  return s;
+}
+
+function escapeHtml(value){
+  return String(value ?? "")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+}
+function renderInline(value){
+  let s=escapeHtml(value);
+  s=s.replace(/\$([^$\n]+)\$/g,'<span class="math-inline">$1</span>');
+  s=s.replace(/`([^`\n]+)`/g,'<code>$1</code>');
+  s=s.replace(/\*\*([^*\n]+)\*\*/g,'<strong>$1</strong>');
+  s=s.replace(/__([^_\n]+)__/g,'<strong>$1</strong>');
+  s=s.replace(/\*([^*\n]+)\*/g,'<em>$1</em>');
+  return s;
+}
+function renderMarkdown(md){
+  if(md==null) return "";
+  let src=String(md).replace(/\r\n?/g,"\n");
+  // Undo JSON/text-layer escaping BEFORE interpreting Markdown.
+  src=src.replace(/\\([\\`*_[\]{}()#+.!|>~-])/g,"$1");
+  src=src.replace(/\\n/g,"\n");
+  // Recover Markdown blocks that were flattened into one line.
+  src=src.replace(/\s+(#{1,6}\s+)/g,"\n$1");
+  src=src.replace(/\s+(\d+\.\s+)/g,"\n$1");
+  src=src.replace(/\s+([-*+]\s+)/g,"\n$1");
+
+  const lines=src.split("\n"),out=[]; let inList=null;
+  const closeList=()=>{if(inList){out.push(`</${inList}>`);inList=null;}};
+
+  for(const raw of lines){
+    const line=raw.trim();
+    if(!line){closeList();continue;}
+
+    let m=line.match(/^(#{1,6})\s+(.+)$/);
+    if(m){
+      closeList();
+      const n=Math.min(m[1].length,4);
+      out.push(`<h${n}>${renderInline(m[2])}</h${n}>`);
+      continue;
+    }
+
+    m=line.match(/^\d+\.\s+(.+)$/);
+    if(m){
+      if(inList!=="ol"){closeList();out.push("<ol>");inList="ol";}
+      out.push(`<li>${renderInline(m[1])}</li>`);
+      continue;
+    }
+
+    m=line.match(/^[-*+]\s+(.+)$/);
+    if(m){
+      if(inList!=="ul"){closeList();out.push("<ul>");inList="ul";}
+      out.push(`<li>${renderInline(m[1])}</li>`);
+      continue;
+    }
+
+    closeList();
+    out.push(`<p>${renderInline(line)}</p>`);
+  }
+  closeList();
+  return out.join("");
+}
+
+
+
+function renderInline(value){
+  let s=escapeHtml(value);
+  s=s.replace(/\$([^$\n]+)\$/g,(_,x)=>'<span class="math-inline">'+renderFormula(x)+"</span>");
+  s=s.replace(/\\\(([^)\n]+)\\\)/g,(_,x)=>'<span class="math-inline">'+renderFormula(x)+"</span>");
+  s=s.replace(/`([^`\n]+)`/g,"<code>$1</code>");
+  s=s.replace(/\*\*([^*\n]+)\*\*/g,"<strong>$1</strong>");
+  s=s.replace(/__([^_\n]+)__/g,"<strong>$1</strong>");
+  s=s.replace(/(^|[^\*])\*([^*\n]+)\*(?!\*)/g,"$1<em>$2</em>");
+  return s;
+}
+
   const root = document.getElementById('root');
   const LEVELS = [
     [1,'Mathematical Foundations','Die Sprache des Quants: Algebra, Funktionen, Returns und Compounding.'],
@@ -44,8 +207,13 @@
     return `<div class="formula"><span class="formula-mark">ƒ</span><span>${s}</span></div>`;
   }
   function symbols(c){return (c.variables||[]).map(v=>`<div class="symbol-row"><code>${esc(v.symbol)}</code><span>${esc(v.meaning)}</span></div>`).join('')}
-  function bullets(arr){return Array.isArray(arr)?`<ol class="steps">${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:`<p>${esc(arr||'')}</p>`}
-  function example(c){return Array.isArray(c.workedExample)?c.workedExample.map((x,i)=>`<div class="calc-step"><span>${i+1}</span><p>${esc(x)}</p></div>`).join(''):`<p>${esc(c.workedExample||'')}</p>`}
+  function bullets(value){
+  return `<div class="markdown">${lessonRichText(value || "")}</div>`;
+}
+  function example(c){
+  const value = c.workedExample ?? c.example ?? "";
+  return `<div class="markdown">${lessonRichText(value)}</div>`;
+}
 
   function shell(content){return `<header class="top"><button class="brand" data-action="home"><span class="brand-dot">Q</span><span>QUANT <b>MATH</b></span></button><div class="top-actions"><button class="icon-btn" data-action="library">Formel-Library</button><button class="icon-btn" data-action="practice">Practice</button></div></header>${content}`}
 
@@ -57,7 +225,7 @@
   function levelView(l){
     if(!l||!l.cards.length)return home();
     const i=Math.min(state.index,l.cards.length-1), c=l.cards[i], done=l.cards.filter(completed).length;
-    return shell(`<main class="page lesson-page"><button class="back" data-action="home">← Alle Kapitel</button><div class="chapter-head"><div><span class="eyebrow">KAPITEL ${String(l.id).padStart(2,'0')}</span><h1>${esc(l.title)}</h1><p>${esc(l.desc)}</p></div><div class="chapter-progress"><b>${done}/${l.cards.length}</b><span>verstanden / erledigt</span></div></div><div class="lesson-layout"><aside class="lesson-nav"><div class="nav-label">LERNSEQUENZ</div><div class="lesson-list">${l.cards.map((x,j)=>`<button class="lesson-link ${j===i?'active':''} ${completed(x)?'is-done':''}" data-action="card" data-index="${j}"><span>${String(j+1).padStart(2,'0')}</span><b>${esc(x.title)}</b></button>`).join('')}</div></aside><article class="lesson"><div class="lesson-meta"><span>${esc(c.topic)}</span><span>·</span><span>${i+1} von ${l.cards.length}</span>${completed(c)?'<span class="done">✓ abgeschlossen</span>':''}</div><h2>${esc(c.title)}</h2><p class="lead">${esc(c.intuition)}</p>${math(c.formula)}<section class="block"><div class="block-kicker">01 · BEGRIFF</div><h3>Was beschreibt diese Formel?</h3><p>${esc(c.intuition)}</p></section><section class="block"><div class="block-kicker">02 · SYMBOLIK</div><h3>Jedes Symbol einzeln</h3><div class="symbols">${symbols(c)}</div></section><section class="block"><div class="block-kicker">03 · HERLEITUNG</div><h3>Wie kommt man darauf?</h3>${bullets(c.derivation)}</section><section class="block example"><div class="block-kicker">04 · RECHNEN</div><h3>Konkretes Zahlenbeispiel</h3>${example(c)}</section><section class="block meaning"><div class="block-kicker">05 · QUANT-INTUITION</div><h3>Was bedeutet das im Markt?</h3><p>${esc(c.financialMeaning)}</p></section><section class="block code-block"><div class="block-kicker">06 · VERIFIKATION</div><h3>Mit Python prüfen</h3><pre>${esc(c.pythonExample)}</pre><p class="muted">Python bestätigt hier die Rechnung. Die mathematische Begründung steht bewusst davor.</p></section><section class="practice-card"><span class="eyebrow">07 · PRÜFE DEIN VERSTÄNDNIS</span><h3>${esc(c.question)}</h3><details><summary>Lösung anzeigen</summary><p>${esc(c.answer)}</p></details><div class="prereq"><b>Voraussetzungen:</b> ${c.prerequisites?.length?c.prerequisites.map(esc).join(' · '):'Keine speziellen Voraussetzungen.'}</div></section><div class="lesson-actions"><button class="secondary" data-action="prev" ${i<=0?'disabled':''}>← Zurück</button><button class="primary" data-action="complete">${completed(c)?'✓ Erledigt':'Als verstanden markieren'}</button><button class="secondary" data-action="next" ${i>=l.cards.length-1?'disabled':''}>Weiter →</button></div></article></div></main>`)
+    return shell(`<main class="page lesson-page"><button class="back" data-action="home">← Alle Kapitel</button><div class="chapter-head"><div><span class="eyebrow">KAPITEL ${String(l.id).padStart(2,'0')}</span><h1>${esc(l.title)}</h1><p>${esc(l.desc)}</p></div><div class="chapter-progress"><b>${done}/${l.cards.length}</b><span>verstanden / erledigt</span></div></div><div class="lesson-layout"><aside class="lesson-nav"><div class="nav-label">LERNSEQUENZ</div><div class="lesson-list">${l.cards.map((x,j)=>`<button class="lesson-link ${j===i?'active':''} ${completed(x)?'is-done':''}" data-action="card" data-index="${j}"><span>${String(j+1).padStart(2,'0')}</span><b>${esc(x.title)}</b></button>`).join('')}</div></aside><article class="lesson"><div class="lesson-meta"><span>${esc(c.topic)}</span><span>·</span><span>${i+1} von ${l.cards.length}</span>${completed(c)?'<span class="done">✓ abgeschlossen</span>':''}</div><h2>${esc(c.title)}</h2><div class="lead markdown">${lessonRichText(c.intuition || "")}</div>${math(c.formula)}<section class="block"><div class="block-kicker">01 · BEGRIFF</div><h3>Was beschreibt diese Formel?</h3><div class="markdown">${lessonRichText(c.intuition || "")}</div></section><section class="block"><div class="block-kicker">02 · WARUM?</div><h3>Warum brauchen wir das?</h3><div class="markdown">${lessonRichText(c.why || "")}</div></section><section class="block"><div class="block-kicker">02 · SYMBOLIK</div><h3>Jedes Symbol einzeln</h3><div class="symbols">${symbols(c)}</div></section><section class="block"><div class="block-kicker">03 · HERLEITUNG</div><h3>Wie kommt man darauf?</h3>${bullets(c.derivation)}</section><section class="block example"><div class="block-kicker">04 · RECHNEN</div><h3>Konkretes Zahlenbeispiel</h3>${example(c)}</section><section class="block mistake"><div class="block-kicker">06 · DENKFEHLER</div><h3>Typischer Denkfehler</h3><div class="markdown">${lessonRichText(c.commonMistake || "")}</div></section><section class="block meaning"><div class="block-kicker">05 · QUANT-INTUITION</div><h3>Was bedeutet das im Markt?</h3><div class="markdown">${lessonRichText(c.financialMeaning || "")}</div></section><section class="block code-block"><div class="block-kicker">07 · VERIFIKATION</div><h3>Mit Python prüfen</h3><pre>${esc(c.pythonExample)}</pre><p class="muted">Python bestätigt hier die Rechnung. Die mathematische Begründung steht bewusst davor.</p></section><section class="practice-card"><span class="eyebrow">08 · PRÜFE DEIN VERSTÄNDNIS</span><h3>${lessonRichText(c.question || "")}</h3><details><summary>Lösung anzeigen</summary><div class="markdown">${lessonRichText(c.answer || "")}</div></details><div class="prereq"><b>Voraussetzungen:</b> ${c.prerequisites?.length?c.prerequisites.map(esc).join(' · '):'Keine speziellen Voraussetzungen.'}</div></section><div class="lesson-actions"><button class="secondary" data-action="prev" ${i<=0?'disabled':''}>← Zurück</button><button class="primary" data-action="complete">${completed(c)?'✓ Erledigt':'Als verstanden markieren'}</button><button class="secondary" data-action="next" ${i>=l.cards.length-1?'disabled':''}>Weiter →</button></div></article></div></main>`)
   }
 
   function library(){return shell(`<main class="page"><div class="library-head"><div><span class="eyebrow">REFERENCE</span><h1>Formel-Library</h1><p>Nur die kuratierten Kernlektionen – ohne künstliche Varianten und Dopplungen.</p></div><button class="secondary" data-action="home">← Home</button></div><input id="search" class="search" value="${esc(state.query)}" placeholder="Formel, Symbol, Thema oder Begriff suchen …"><div id="results" class="library-results">${libraryResults()}</div></main>`)}
@@ -68,7 +236,7 @@
   }
   function practice(){
     const c=state.cards[Math.floor(Math.random()*state.cards.length)]; state.practice=c;
-    return shell(`<main class="page practice-page"><button class="back" data-action="home">← Home</button><div class="practice-wrap"><span class="eyebrow">PRACTICE · ZUFÄLLIGE KERNFRAGE</span><h1>${esc(c.title)}</h1>${math(c.formula)}<div class="practice-card"><h2>${esc(c.question)}</h2><textarea id="practiceAnswer" placeholder="Erkläre oder rechne in deinen eigenen Worten …"></textarea><button class="primary" data-action="check">Lösung vergleichen</button><div id="feedback"></div><details><summary>Musterlösung anzeigen</summary><p>${esc(c.answer)}</p></details></div></div></main>`)
+    return shell(`<main class="page practice-page"><button class="back" data-action="home">← Home</button><div class="practice-wrap"><span class="eyebrow">PRACTICE · ZUFÄLLIGE KERNFRAGE</span><h1>${esc(c.title)}</h1>${math(c.formula)}<div class="practice-card"><h2>${lessonRichText(c.question || "")}</h2><textarea id="practiceAnswer" placeholder="Erkläre oder rechne in deinen eigenen Worten …"></textarea><button class="primary" data-action="check">Lösung vergleichen</button><div id="feedback"></div><details><summary>Musterlösung anzeigen</summary><div class="markdown">${lessonRichText(c.answer || "")}</div></details></div></div></main>`)
   }
   function check(){const input=document.getElementById('practiceAnswer');const f=document.getElementById('feedback');if(!input||!f)return;const a=input.value.trim();f.className='feedback '+(a.length>15?'good':'bad');f.textContent=a.length>15?'Gute Basis. Vergleiche jetzt deine Argumentation mit der Musterlösung.':'Schreibe etwas mehr: Rechenschritte oder die Bedeutung der Variablen.'}
   function render(){try{if(state.screen==='home')root.innerHTML=home();else if(state.screen==='level')root.innerHTML=levelView(levels().find(x=>x.id===state.level));else if(state.screen==='library')root.innerHTML=library();else root.innerHTML=practice();}catch(e){root.innerHTML=`<main class="error"><h1>Fehler</h1><p>${esc(e.message)}</p><button class="primary" data-action="retry">Neu laden</button></main>`}}

@@ -1,8 +1,8 @@
 {
-  "version": "5.0-deep-focused",
+  "version": "6.0-textbook",
   "cardCount": 244,
   "levelCount": 16,
-  "description": "Kuratierter Quant-Mathematik-Kurs mit Schwerpunkt auf Options & Greeks, GEX/Dealer Positioning, Stochastic Processes, Stochastic Calculus und Advanced Quant Finance. Neue Lektionen sind als aufeinander aufbauende Lernsequenzen geschrieben und nicht als künstliche Varianten.",
+  "description": "Didaktisch überarbeiteter Quant-Mathematik-Kurs mit lehrbuchartigen Begriffs- und Konzept-Erklärungen; Schwerpunkt Options, Greeks, GEX und Stochastic Calculus.",
   "cards": [
     {
       "id": "L01-001",
@@ -33,7 +33,8 @@
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nP0=100; P1=110\nprint((P1-P0)/P0, math.log(P1/P0))",
       "prerequisites": [],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-002",
@@ -74,7 +75,8 @@
       "prerequisites": [
         "L01-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-003",
@@ -107,7 +109,8 @@
       "prerequisites": [
         "L01-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-004",
@@ -144,7 +147,8 @@
       "prerequisites": [
         "L01-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-005",
@@ -181,7 +185,8 @@
       "prerequisites": [
         "L01-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-006",
@@ -222,7 +227,8 @@
       "prerequisites": [
         "L01-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-007",
@@ -263,7 +269,8 @@
       "prerequisites": [
         "L01-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-008",
@@ -304,7 +311,8 @@
       "prerequisites": [
         "L01-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-009",
@@ -345,7 +353,8 @@
       "prerequisites": [
         "L01-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-010",
@@ -386,7 +395,8 @@
       "prerequisites": [
         "L01-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-011",
@@ -427,7 +437,8 @@
       "prerequisites": [
         "L01-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L01-012",
@@ -472,7 +483,8 @@
       "prerequisites": [
         "L01-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-001",
@@ -513,7 +525,8 @@
       "prerequisites": [
         "L01-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-002",
@@ -550,7 +563,8 @@
       "prerequisites": [
         "L02-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-003",
@@ -587,7 +601,8 @@
       "prerequisites": [
         "L02-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-004",
@@ -628,7 +643,8 @@
       "prerequisites": [
         "L02-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-005",
@@ -661,7 +677,8 @@
       "prerequisites": [
         "L02-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-006",
@@ -694,7 +711,8 @@
       "prerequisites": [
         "L02-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-007",
@@ -731,7 +749,8 @@
       "prerequisites": [
         "L02-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-008",
@@ -768,7 +787,8 @@
       "prerequisites": [
         "L02-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-009",
@@ -809,7 +829,8 @@
       "prerequisites": [
         "L02-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-010",
@@ -850,7 +871,8 @@
       "prerequisites": [
         "L02-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-011",
@@ -887,7 +909,8 @@
       "prerequisites": [
         "L02-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L02-012",
@@ -924,7 +947,8 @@
       "prerequisites": [
         "L02-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-001",
@@ -965,7 +989,8 @@
       "prerequisites": [
         "L02-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-002",
@@ -1010,7 +1035,8 @@
       "prerequisites": [
         "L03-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-003",
@@ -1043,7 +1069,8 @@
       "prerequisites": [
         "L03-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-004",
@@ -1084,7 +1111,8 @@
       "prerequisites": [
         "L03-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-005",
@@ -1133,7 +1161,8 @@
       "prerequisites": [
         "L03-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-006",
@@ -1170,7 +1199,8 @@
       "prerequisites": [
         "L03-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-007",
@@ -1211,7 +1241,8 @@
       "prerequisites": [
         "L03-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-008",
@@ -1252,7 +1283,8 @@
       "prerequisites": [
         "L03-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-009",
@@ -1293,7 +1325,8 @@
       "prerequisites": [
         "L03-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-010",
@@ -1334,7 +1367,8 @@
       "prerequisites": [
         "L03-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-011",
@@ -1375,7 +1409,8 @@
       "prerequisites": [
         "L03-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L03-012",
@@ -1420,7 +1455,8 @@
       "prerequisites": [
         "L03-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-001",
@@ -1457,7 +1493,8 @@
       "prerequisites": [
         "L03-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-002",
@@ -1494,7 +1531,8 @@
       "prerequisites": [
         "L04-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-003",
@@ -1531,7 +1569,8 @@
       "prerequisites": [
         "L04-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-004",
@@ -1568,7 +1607,8 @@
       "prerequisites": [
         "L04-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-005",
@@ -1605,7 +1645,8 @@
       "prerequisites": [
         "L04-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-006",
@@ -1642,7 +1683,8 @@
       "prerequisites": [
         "L04-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-007",
@@ -1683,7 +1725,8 @@
       "prerequisites": [
         "L04-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-008",
@@ -1720,7 +1763,8 @@
       "prerequisites": [
         "L04-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-009",
@@ -1765,7 +1809,8 @@
       "prerequisites": [
         "L04-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-010",
@@ -1810,7 +1855,8 @@
       "prerequisites": [
         "L04-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-011",
@@ -1851,7 +1897,8 @@
       "prerequisites": [
         "L04-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L04-012",
@@ -1896,7 +1943,8 @@
       "prerequisites": [
         "L04-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-001",
@@ -1942,7 +1990,8 @@
       "prerequisites": [
         "L04-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-002",
@@ -1980,7 +2029,8 @@
       "prerequisites": [
         "L05-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-003",
@@ -2018,7 +2068,8 @@
       "prerequisites": [
         "L05-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-004",
@@ -2060,7 +2111,8 @@
       "prerequisites": [
         "L05-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-005",
@@ -2098,7 +2150,8 @@
       "prerequisites": [
         "L05-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-006",
@@ -2140,7 +2193,8 @@
       "prerequisites": [
         "L05-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-007",
@@ -2186,7 +2240,8 @@
       "prerequisites": [
         "L05-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-008",
@@ -2228,7 +2283,8 @@
       "prerequisites": [
         "L05-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-009",
@@ -2274,7 +2330,8 @@
       "prerequisites": [
         "L05-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-010",
@@ -2316,7 +2373,8 @@
       "prerequisites": [
         "L05-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-011",
@@ -2354,7 +2412,8 @@
       "prerequisites": [
         "L05-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L05-012",
@@ -2400,7 +2459,8 @@
       "prerequisites": [
         "L05-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-001",
@@ -2446,7 +2506,8 @@
       "prerequisites": [
         "L05-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-002",
@@ -2492,7 +2553,8 @@
       "prerequisites": [
         "L06-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-003",
@@ -2538,7 +2600,8 @@
       "prerequisites": [
         "L06-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-004",
@@ -2584,7 +2647,8 @@
       "prerequisites": [
         "L06-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-005",
@@ -2634,7 +2698,8 @@
       "prerequisites": [
         "L06-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-006",
@@ -2680,7 +2745,8 @@
       "prerequisites": [
         "L06-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-007",
@@ -2722,7 +2788,8 @@
       "prerequisites": [
         "L06-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-008",
@@ -2768,7 +2835,8 @@
       "prerequisites": [
         "L06-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-009",
@@ -2810,7 +2878,8 @@
       "prerequisites": [
         "L06-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-010",
@@ -2856,7 +2925,8 @@
       "prerequisites": [
         "L06-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-011",
@@ -2906,7 +2976,8 @@
       "prerequisites": [
         "L06-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L06-012",
@@ -2948,7 +3019,8 @@
       "prerequisites": [
         "L06-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-001",
@@ -2968,7 +3040,7 @@
           "meaning": "K Strike."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
+      "intuition": "Der Payoff beantwortet nur eine Frage: Wie viel zahlt der Vertrag am Verfall aus? Beim Call ist das max(S_T-K,0), beim Put max(K-S_T,0). Der Payoff ignoriert bewusst die heute gezahlte Prämie, Zinsen und zwischenzeitliche Wertänderungen. Das unterscheidet ihn vom Profit.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -2979,14 +3051,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Payoff-Diagramme machen die Nichtlinearität sichtbar. Genau diese Nichtlinearität ist der Ursprung von Delta, Gamma und den anderen Greeks.",
       "question": "Kannst du Call-Payoff ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
       "prerequisites": [
         "L06-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-002",
@@ -3006,7 +3079,7 @@
           "meaning": "S_T Endpreis."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
+      "intuition": "Der Payoff beantwortet nur eine Frage: Wie viel zahlt der Vertrag am Verfall aus? Beim Call ist das max(S_T-K,0), beim Put max(K-S_T,0). Der Payoff ignoriert bewusst die heute gezahlte Prämie, Zinsen und zwischenzeitliche Wertänderungen. Das unterscheidet ihn vom Profit.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -3017,14 +3090,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Payoff-Diagramme machen die Nichtlinearität sichtbar. Genau diese Nichtlinearität ist der Ursprung von Delta, Gamma und den anderen Greeks.",
       "question": "Kannst du Put-Payoff ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
       "prerequisites": [
         "L07-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-003",
@@ -3060,25 +3134,22 @@
           "meaning": "Laufzeit."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
-      "derivation": [
-        "Identifiziere zuerst die Größen in der Definition.",
-        "Setze die Definition in kleine algebraische Schritte um.",
-        "Prüfe am Ende Dimensionsanalyse, Grenzfälle und Vorzeichen."
-      ],
+      "intuition": "Put-Call-Parität ist eine No-Arbitrage-Beziehung zwischen einem europäischen Call, einem europäischen Put, dem Underlying und einem diskontierten Strike. Der Trick besteht darin, zwei Portfolios zu vergleichen, die am Verfall in jedem Zustand exakt denselben Cashflow erzeugen. Wenn ihre heutigen Preise verschieden wären, könnte man das billigere kaufen und das teurere verkaufen und einen sicheren Arbitragegewinn erzeugen.",
+      "derivation": "Portfolio A besteht aus Long Call + diskontiertem Strike. Portfolio B besteht aus Long Put + Long Underlying. Am Verfall liefern beide bei S_T>K exakt S_T und bei S_T<K exakt K. Deshalb müssen sie heute denselben Wert haben: C+Ke^{-rT}=P+S. Umgestellt folgt C-P=S-Ke^{-rT}.",
       "workedExample": [
         "Betrachte ein kleines numerisches Beispiel zur Formel C-P=S_0-Ke^{-rT}.",
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Die Parität ist ein Konsistenzcheck. Wenn Marktpreise deutlich von ihr abweichen, kann das auf Arbitrage, Bid-Ask-Spreads, Finanzierungskosten, Dividenden oder unterschiedliche Konventionen hindeuten.",
       "question": "Kannst du Put-Call-Parität ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
       "prerequisites": [
         "L07-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-004",
@@ -3122,18 +3193,14 @@
           "meaning": "die in der Formel verwendete Größe"
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
-      "derivation": [
-        "Formuliere den diskontierten erwarteten Payoff unter dem risikoneutralen Maß.",
-        "Nutze die Lognormalverteilung von S_T.",
-        "Die Integration des Call-Payoffs führt auf N(d_1) und N(d_2)."
-      ],
+      "intuition": "Black-Scholes ist kein Preisrezept, das aus dem Nichts kommt. Es ist das Ergebnis einer Modellkette: Das Underlying wird als Geometric Brownian Motion modelliert; Ito's Lemma liefert die Dynamik des Derivats; ein Delta-Hedge entfernt den zufälligen Term; No-Arbitrage zwingt das verbleibende Portfolio auf den risikofreien Zinssatz. Daraus entsteht die Black-Scholes-PDE, deren Lösung die bekannte Preisformel ist.",
+      "derivation": "Aus dS=μSdt+σSdW und Ito folgt dV=(V_t+μSV_S+½σ²S²V_SS)dt+σSV_SdW. Mit Δ=V_S wird der dW-Term durch das Underlying-Hedge eliminiert. Für ein self-financing Portfolio muss der sichere Rest zum Zins r wachsen. Daraus folgt V_t+½σ²S²V_SS+rSV_S-rV=0. Mit der Call-Endbedingung V(S,T)=max(S-K,0) erhält man die Black-Scholes-Lösung.",
       "workedExample": [
         "Betrachte ein kleines numerisches Beispiel zur Formel C=S_0N(d_1)-Ke^{-rT}N(d_2).",
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Black-Scholes ist heute weniger ein perfektes Marktmodell als ein Referenzrahmen. Der reale Optionsmarkt zeigt Smile, Skew und zeitabhängige Volatilität. Trotzdem sind die Struktur und die Greeks aus diesem Modell extrem wichtig.",
       "question": "Kannst du Black-Scholes Call ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
@@ -3142,7 +3209,8 @@
         "L07-002",
         "L06-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-005",
@@ -3192,7 +3260,8 @@
       "prerequisites": [
         "L07-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-006",
@@ -3234,7 +3303,8 @@
       "prerequisites": [
         "L07-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-007",
@@ -3254,7 +3324,7 @@
           "meaning": "S Underlying."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
+      "intuition": "Delta ist die lokale Steigung der Optionswertfunktion. Wenn eine Option Delta 0,40 besitzt, bedeutet das nicht, dass sie immer genau 0,40 pro Punkt gewinnt. Es bedeutet: In der unmittelbaren Umgebung des aktuellen Preises verändert sich ihr Wert ungefähr um 0,40, wenn sich das Underlying um einen Punkt bewegt. Delta ist deshalb eine erste-Ordnungs-Näherung.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -3265,7 +3335,7 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Delta wird als Hedge Ratio verwendet. Ein Long Call mit Delta 0,40 verhält sich für kleine Bewegungen ungefähr wie 0,40 Einheiten des Underlyings. Weil Delta selbst veränderlich ist, muss ein Delta-Hedge laufend angepasst werden.",
       "question": "Kannst du Delta ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
@@ -3273,7 +3343,8 @@
         "L02-007",
         "L07-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-008",
@@ -3293,7 +3364,7 @@
           "meaning": "S Underlying."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Delta ist die erste Ableitung des Optionswertes nach S.",
         "Leite Delta erneut nach S ab.",
@@ -3304,14 +3375,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "question": "Kannst du Gamma ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
       "prerequisites": [
         "L07-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-009",
@@ -3331,7 +3403,7 @@
           "meaning": "σ implizite Volatilität."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
+      "intuition": "Vega misst die Sensitivität des Optionswerts gegenüber der impliziten Volatilität. Das ist wichtig, weil der Marktpreis einer Option nicht nur auf Spot reagiert. Wenn die erwartete Unsicherheit zunimmt, werden mögliche zukünftige Auszahlungen wertvoller, insbesondere bei Optionen mit noch viel Zeit.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -3342,14 +3414,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Ein Optionsbuch kann bei nahezu unverändertem Spot stark an Wert gewinnen oder verlieren, wenn sich die implizite Volatilität verändert. Deshalb ist ein delta-neutrales Buch nicht automatisch risiko-neutral.",
       "question": "Kannst du Vega ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
       "prerequisites": [
         "L07-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-010",
@@ -3369,7 +3442,7 @@
           "meaning": "t Zeit."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
+      "intuition": "Theta beschreibt den Effekt des Zeitablaufs auf den Optionswert. Eine Option besitzt heute die Möglichkeit, dass günstige Szenarien noch eintreten. Mit jedem vergehenden Tag wird diese Möglichkeit kleiner. Bei einer Long-Option ist der Zeitwertverfall daher häufig negativ. Das bedeutet aber nicht, dass der Optionspreis zwangsläufig jeden Tag um denselben Betrag fällt; Theta selbst verändert sich mit Spot, Volatilität und Restlaufzeit.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -3380,14 +3453,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Theta ist besonders bei kurzfristigen Optionen wichtig. Bei 0DTE kann sich der Wert innerhalb von Stunden stark verändern, weil die verbleibende Zeit selbst ein entscheidender Teil der Bewertung ist.",
       "question": "Kannst du Theta ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
       "prerequisites": [
         "L07-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-011",
@@ -3425,7 +3499,8 @@
       "prerequisites": [
         "L07-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-012",
@@ -3449,7 +3524,7 @@
           "meaning": "ΔS Underlyingbewegung."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Optionen sind der natürliche Ort, an dem Ableitungen direkt zu handelbaren Sensitivitäten werden.",
+      "intuition": "Delta ist die lokale Steigung der Optionswertfunktion. Wenn eine Option Delta 0,40 besitzt, bedeutet das nicht, dass sie immer genau 0,40 pro Punkt gewinnt. Es bedeutet: In der unmittelbaren Umgebung des aktuellen Preises verändert sich ihr Wert ungefähr um 0,40, wenn sich das Underlying um einen Punkt bewegt. Delta ist deshalb eine erste-Ordnungs-Näherung.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -3460,14 +3535,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Greeks übersetzen Optionswerte in konkrete Hedge- und Risiko-Sensitivitäten.",
+      "financialMeaning": "Delta wird als Hedge Ratio verwendet. Ein Long Call mit Delta 0,40 verhält sich für kleine Bewegungen ungefähr wie 0,40 Einheiten des Underlyings. Weil Delta selbst veränderlich ist, muss ein Delta-Hedge laufend angepasst werden.",
       "question": "Kannst du Delta-Hedge lokal ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import math\nS,K=110,100; print(max(S-K,0))",
       "prerequisites": [
         "L07-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-013",
@@ -3510,7 +3586,8 @@
         "L07-001",
         "L07-002"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-014",
@@ -3553,7 +3630,8 @@
         "L07-001",
         "L07-004"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-015",
@@ -3577,7 +3655,7 @@
           "meaning": "Preis des Underlyings"
         }
       ],
-      "intuition": "Delta ist die lokale Steigung der Optionswertkurve. Es beantwortet die Frage: Was passiert ungefähr mit dem Optionspreis, wenn sich der Basiswert ein kleines Stück bewegt?",
+      "intuition": "Delta ist die lokale Steigung der Optionswertfunktion. Wenn eine Option Delta 0,40 besitzt, bedeutet das nicht, dass sie immer genau 0,40 pro Punkt gewinnt. Es bedeutet: In der unmittelbaren Umgebung des aktuellen Preises verändert sich ihr Wert ungefähr um 0,40, wenn sich das Underlying um einen Punkt bewegt. Delta ist deshalb eine erste-Ordnungs-Näherung.",
       "derivation": [
         "Betrachte V als Funktion V(S).",
         "Die Ableitung nach S liefert die lokale Steigung.",
@@ -3588,7 +3666,7 @@
         "Steigt S um 2, steigt V lokal ungefähr um 0,40·2=0,80.",
         "Bei größeren Bewegungen wird die Näherung schlechter, weil sich Delta selbst verändert."
       ],
-      "financialMeaning": "Delta ist die Grundlage des lokalen Delta-Hedges.",
+      "financialMeaning": "Delta wird als Hedge Ratio verwendet. Ein Long Call mit Delta 0,40 verhält sich für kleine Bewegungen ungefähr wie 0,40 Einheiten des Underlyings. Weil Delta selbst veränderlich ist, muss ein Delta-Hedge laufend angepasst werden.",
       "pythonExample": "delta=0.40; dS=2\nprint(delta*dS)",
       "question": "Warum ist Delta keine exakte Preisänderung für große Bewegungen?",
       "answer": "Weil Gamma das Delta mit dem Underlying mitverändert. Delta ist eine lokale erste Ordnung.",
@@ -3596,7 +3674,8 @@
         "L07-007",
         "L02-004"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-016",
@@ -3624,7 +3703,7 @@
           "meaning": "Underlying-Preis"
         }
       ],
-      "intuition": "Gamma sagt nicht, wie stark der Optionspreis steigt, sondern wie schnell sich seine Steigung verändert.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Delta ist die erste Ableitung von V nach S.",
         "Gamma ist die Ableitung von Delta nach S.",
@@ -3635,7 +3714,7 @@
         "Steigt S um 1, ändert sich Delta lokal um 0,02.",
         "Steigt S um 5, ändert sich Delta näherungsweise um 0,10, solange Gamma ungefähr konstant bleibt."
       ],
-      "financialMeaning": "Gamma macht Delta-Hedging dynamisch und ist der mathematische Kern von GEX.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "pythonExample": "gamma=0.02; dS=5\nprint(gamma*dS)",
       "question": "Was ist der Unterschied zwischen Delta und Gamma?",
       "answer": "Delta misst die erste Sensitivität des Optionswerts; Gamma misst, wie sich diese Sensitivität mit S verändert.",
@@ -3643,7 +3722,8 @@
         "L07-015",
         "L07-009"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-017",
@@ -3671,7 +3751,7 @@
           "meaning": "kleine Änderung des Underlyings"
         }
       ],
-      "intuition": "Delta liefert die Gerade; Gamma korrigiert die Gerade um die Krümmung. Genau diese Zerlegung ist für Hedging und Risikoanalyse zentral.",
+      "intuition": "Eine Option ist ein Vertrag, dessen Auszahlung vom Wert eines Basiswerts abhängt. Ein Call gibt dem Käufer das Recht, aber nicht die Pflicht, den Basiswert zu einem festgelegten Strike K zu kaufen; ein Put gibt das entsprechende Recht zu verkaufen. Für den Käufer ist die gezahlte Prämie der Preis dieses Rechts. Entscheidend ist: Der Optionswert entsteht nicht erst am Verfall. Schon heute ist das Recht wertvoll, weil bis zum Verfall viele mögliche Preiswege existieren und einige davon zu einer hohen Auszahlung führen können. Genau diese Unsicherheit ist später der Grund, warum Volatilität ein zentraler Input der Optionsbewertung ist.",
       "derivation": [
         "Entwickle V(S+ΔS) um S.",
         "Der Term erster Ordnung ist V'(S)ΔS=ΔΔS.",
@@ -3683,7 +3763,7 @@
         "Gamma-Term: 0,5·0,03·4=0,06.",
         "Gesamt: ΔV≈0,96."
       ],
-      "financialMeaning": "Die Formel zeigt direkt, warum bei großen Bewegungen Gamma nicht ignoriert werden darf.",
+      "financialMeaning": "Im Trading ist eine Option ein nichtlineares Instrument: Kleine Bewegungen des Underlyings können je nach Moneyness und Restlaufzeit sehr unterschiedliche Auswirkungen auf den Optionswert haben. Deshalb reichen einfache Long/Short-Betrachtungen nicht aus; Greeks beschreiben die lokalen Sensitivitäten.",
       "pythonExample": "delta=0.45; gamma=0.03; dS=2\nprint(delta*dS + 0.5*gamma*dS**2)",
       "question": "Warum ist der Gamma-Term immer mit (ΔS)² verbunden?",
       "answer": "Weil Gamma die zweite Ableitung ist; die Taylor-Reihe multipliziert die zweite Ableitung mit der quadratischen Preisbewegung.",
@@ -3692,7 +3772,8 @@
         "L07-016",
         "L02-005"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-018",
@@ -3720,7 +3801,7 @@
           "meaning": "Änderung des Underlying"
         }
       ],
-      "intuition": "Ein Delta-Hedge versucht, die erste Preisempfindlichkeit der Option durch eine Gegenposition im Underlying zu neutralisieren.",
+      "intuition": "Delta ist die lokale Steigung der Optionswertfunktion. Wenn eine Option Delta 0,40 besitzt, bedeutet das nicht, dass sie immer genau 0,40 pro Punkt gewinnt. Es bedeutet: In der unmittelbaren Umgebung des aktuellen Preises verändert sich ihr Wert ungefähr um 0,40, wenn sich das Underlying um einen Punkt bewegt. Delta ist deshalb eine erste-Ordnungs-Näherung.",
       "derivation": [
         "Eine Long-Call-Position steigt bei S-Anstieg ungefähr um Δ·ΔS.",
         "Halte h=Δ Einheiten des Underlyings short.",
@@ -3732,7 +3813,7 @@
         "Short 0,60 Underlying verliert 0,60.",
         "Der erste Ordnungseffekt ist ungefähr null; Gamma bleibt als zweiter Ordnungseffekt bestehen."
       ],
-      "financialMeaning": "Delta-Hedging ist die Brücke zwischen Optionssensitivitäten und tatsächlichem Dealer-Flow.",
+      "financialMeaning": "Delta wird als Hedge Ratio verwendet. Ein Long Call mit Delta 0,40 verhält sich für kleine Bewegungen ungefähr wie 0,40 Einheiten des Underlyings. Weil Delta selbst veränderlich ist, muss ein Delta-Hedge laufend angepasst werden.",
       "pythonExample": "delta=0.60; dS=1\nprint(delta*dS - delta*dS)",
       "question": "Warum ist ein Delta-Hedge nicht dauerhaft perfekt?",
       "answer": "Weil sich Delta und Gamma während der Bewegung verändern und außerdem Zeit, Volatilität und andere Faktoren wirken.",
@@ -3740,7 +3821,8 @@
         "L07-015",
         "L07-017"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-019",
@@ -3776,12 +3858,8 @@
           "meaning": "Restlaufzeit"
         }
       ],
-      "intuition": "d1 bündelt Moneyness, Zins, Volatilität und Laufzeit in einer dimensionslosen Größe. Er ist kein mystischer Parameter, sondern ein standardisiertes Signal.",
-      "derivation": [
-        "Log-Moneyness ln(S/K) misst die relative Entfernung zum Strike.",
-        "Der Driftterm (r+½σ²)T verschiebt die Größe mit Zeit und Modellannahmen.",
-        "σ√T skaliert die Unsicherheit und macht den Ausdruck dimensionslos."
-      ],
+      "intuition": "Black-Scholes ist kein Preisrezept, das aus dem Nichts kommt. Es ist das Ergebnis einer Modellkette: Das Underlying wird als Geometric Brownian Motion modelliert; Ito's Lemma liefert die Dynamik des Derivats; ein Delta-Hedge entfernt den zufälligen Term; No-Arbitrage zwingt das verbleibende Portfolio auf den risikofreien Zinssatz. Daraus entsteht die Black-Scholes-PDE, deren Lösung die bekannte Preisformel ist.",
+      "derivation": "Aus dS=μSdt+σSdW und Ito folgt dV=(V_t+μSV_S+½σ²S²V_SS)dt+σSV_SdW. Mit Δ=V_S wird der dW-Term durch das Underlying-Hedge eliminiert. Für ein self-financing Portfolio muss der sichere Rest zum Zins r wachsen. Daraus folgt V_t+½σ²S²V_SS+rSV_S-rV=0. Mit der Call-Endbedingung V(S,T)=max(S-K,0) erhält man die Black-Scholes-Lösung.",
       "workedExample": [
         "S=100, K=100, r=0,05, σ=0,20, T=1.",
         "ln(1)=0.",
@@ -3789,7 +3867,7 @@
         "Nenner=0,20.",
         "d1=0,35."
       ],
-      "financialMeaning": "d1 ist zentral für Delta und die Black-Scholes-Formel und macht sichtbar, wie Volatilität und Laufzeit Moneyness verändern.",
+      "financialMeaning": "Black-Scholes ist heute weniger ein perfektes Marktmodell als ein Referenzrahmen. Der reale Optionsmarkt zeigt Smile, Skew und zeitabhängige Volatilität. Trotzdem sind die Struktur und die Greeks aus diesem Modell extrem wichtig.",
       "pythonExample": "import math\nS=100; K=100; r=.05; sigma=.20; T=1\nd1=(math.log(S/K)+(r+.5*sigma**2)*T)/(sigma*math.sqrt(T))\nprint(d1)",
       "question": "Warum steht im Zähler ½σ²?",
       "answer": "Weil bei der Transformation vom Preisprozess zum Log-Preis die quadratische Variation einen Korrekturterm erzeugt.",
@@ -3798,7 +3876,8 @@
         "L09-007",
         "L10-003"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-020",
@@ -3826,19 +3905,15 @@
           "meaning": "Restlaufzeit"
         }
       ],
-      "intuition": "d2 verschiebt d1 um genau eine Volatilitätsskala über die Restlaufzeit. Dadurch hängt d2 enger mit der risikoneutralen Wahrscheinlichkeit des Calls zusammen.",
-      "derivation": [
-        "Aus der Definition folgt d2=d1-σ√T.",
-        "σ√T ist die Standardabweichung des Log-Preises unter GBM.",
-        "In Black-Scholes wird N(d2) mit dem diskontierten Strike-Term verknüpft."
-      ],
+      "intuition": "Black-Scholes ist kein Preisrezept, das aus dem Nichts kommt. Es ist das Ergebnis einer Modellkette: Das Underlying wird als Geometric Brownian Motion modelliert; Ito's Lemma liefert die Dynamik des Derivats; ein Delta-Hedge entfernt den zufälligen Term; No-Arbitrage zwingt das verbleibende Portfolio auf den risikofreien Zinssatz. Daraus entsteht die Black-Scholes-PDE, deren Lösung die bekannte Preisformel ist.",
+      "derivation": "Aus dS=μSdt+σSdW und Ito folgt dV=(V_t+μSV_S+½σ²S²V_SS)dt+σSV_SdW. Mit Δ=V_S wird der dW-Term durch das Underlying-Hedge eliminiert. Für ein self-financing Portfolio muss der sichere Rest zum Zins r wachsen. Daraus folgt V_t+½σ²S²V_SS+rSV_S-rV=0. Mit der Call-Endbedingung V(S,T)=max(S-K,0) erhält man die Black-Scholes-Lösung.",
       "workedExample": [
         "d1=0,35, σ=0,20, T=1.",
         "σ√T=0,20.",
         "d2=0,35-0,20=0,15.",
         "Damit ist N(d2)≈0,5606."
       ],
-      "financialMeaning": "N(d2) wird häufig als risikoneutrale Wahrscheinlichkeit eines Calls interpretiert, unter den Modellannahmen und ohne Dividenden.",
+      "financialMeaning": "Black-Scholes ist heute weniger ein perfektes Marktmodell als ein Referenzrahmen. Der reale Optionsmarkt zeigt Smile, Skew und zeitabhängige Volatilität. Trotzdem sind die Struktur und die Greeks aus diesem Modell extrem wichtig.",
       "pythonExample": "import math\n# einfache Approximation via erf\nN=lambda x: .5*(1+math.erf(x/math.sqrt(2)))\nprint(N(.15))",
       "question": "Warum ist N(d2) keine echte historische Wahrscheinlichkeit?",
       "answer": "Weil Black-Scholes unter dem risikoneutralen Maß bewertet; die Risikoprämie der realen Welt ist darin nicht enthalten.",
@@ -3846,7 +3921,8 @@
         "L07-019",
         "L04-004"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-021",
@@ -3870,7 +3946,7 @@
           "meaning": "implizite oder modellierte Volatilität"
         }
       ],
-      "intuition": "Vega misst nicht die Volatilität selbst, sondern wie empfindlich der Optionswert auf Volatilität reagiert.",
+      "intuition": "Vega misst die Sensitivität des Optionswerts gegenüber der impliziten Volatilität. Das ist wichtig, weil der Marktpreis einer Option nicht nur auf Spot reagiert. Wenn die erwartete Unsicherheit zunimmt, werden mögliche zukünftige Auszahlungen wertvoller, insbesondere bei Optionen mit noch viel Zeit.",
       "derivation": [
         "Behandle V als Funktion V(S,σ,T,...).",
         "Partielle Ableitung nach σ hält die anderen Modellgrößen lokal konstant.",
@@ -3881,7 +3957,7 @@
         "Steigt σ von 20% auf 21%, ist Δσ=0,01.",
         "Preisänderung≈0,18·0,01=0,0018 in derselben Preis-Skalierung."
       ],
-      "financialMeaning": "Vega erklärt, warum ein Optionsbuch trotz unverändertem Spot durch eine Volatilitätsbewegung stark schwanken kann.",
+      "financialMeaning": "Ein Optionsbuch kann bei nahezu unverändertem Spot stark an Wert gewinnen oder verlieren, wenn sich die implizite Volatilität verändert. Deshalb ist ein delta-neutrales Buch nicht automatisch risiko-neutral.",
       "pythonExample": "vega=.18; dsigma=.01\nprint(vega*dsigma)",
       "question": "Warum kann eine Option bei unverändertem Spot steigen?",
       "answer": "Zum Beispiel durch steigende implizite Volatilität oder verbleibende Zeit.",
@@ -3889,7 +3965,8 @@
         "L07-004",
         "L07-007"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-022",
@@ -3913,7 +3990,7 @@
           "meaning": "Kalenderzeit"
         }
       ],
-      "intuition": "Theta beschreibt, wie sich der Optionswert verändert, wenn Zeit vergeht. Die Vorzeichen hängen von Position, Konvention und den übrigen Variablen ab.",
+      "intuition": "Theta beschreibt den Effekt des Zeitablaufs auf den Optionswert. Eine Option besitzt heute die Möglichkeit, dass günstige Szenarien noch eintreten. Mit jedem vergehenden Tag wird diese Möglichkeit kleiner. Bei einer Long-Option ist der Zeitwertverfall daher häufig negativ. Das bedeutet aber nicht, dass der Optionspreis zwangsläufig jeden Tag um denselben Betrag fällt; Theta selbst verändert sich mit Spot, Volatilität und Restlaufzeit.",
       "derivation": [
         "Optionswerte hängen von Restlaufzeit T ab.",
         "Da T mit fortschreitender Zeit sinkt, muss man die verwendete Ableitungskonvention sauber unterscheiden.",
@@ -3924,7 +4001,7 @@
         "Über zwei Tage wäre die lineare Näherung etwa -0,08, wenn Theta konstant bliebe.",
         "In der Realität verändert sich Theta mit Spot und Restlaufzeit."
       ],
-      "financialMeaning": "Theta ist besonders relevant für 0DTE, weil sich die Zeitvariable extrem schnell auf die Sensitivitäten auswirkt.",
+      "financialMeaning": "Theta ist besonders bei kurzfristigen Optionen wichtig. Bei 0DTE kann sich der Wert innerhalb von Stunden stark verändern, weil die verbleibende Zeit selbst ein entscheidender Teil der Bewertung ist.",
       "pythonExample": "theta=-.04; days=2\nprint(theta*days)",
       "question": "Warum ist Theta bei 0DTE so dynamisch?",
       "answer": "Weil T gegen null läuft und die Krümmung sowie andere Greeks sich nahe dem Verfall stark verändern.",
@@ -3932,7 +4009,8 @@
         "L07-010",
         "L07-017"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-023",
@@ -3975,7 +4053,8 @@
         "L06-001",
         "L07-005"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-024",
@@ -4015,7 +4094,7 @@
           "meaning": "verstrichene Zeit"
         }
       ],
-      "intuition": "Bei einer delta-neutralen Position verschwindet der erste Ordnungsterm. Dann werden Gamma, Vega und Theta zu den entscheidenden lokalen P&L-Treibern.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Starte mit der Taylor-Zerlegung.",
         "Setze den Delta-Term durch Hedging auf ungefähr null.",
@@ -4026,7 +4105,7 @@
         "Theta=-0,03 pro Tag für einen Tag: -0,03.",
         "Ohne Vega-Änderung wäre die lokale P&L≈0,05."
       ],
-      "financialMeaning": "Gamma-Scalping versucht, Bewegungen des Underlyings durch dynamisches Hedging zu monetarisieren, muss aber gegen Theta und Transaktionskosten abgewogen werden.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "pythonExample": "gamma=.04; dS=2; theta=-.03\nprint(.5*gamma*dS**2+theta)",
       "question": "Warum reicht positives Gamma allein nicht für Profit?",
       "answer": "Weil Gamma P&L erzeugt, aber Theta, Vega, Volatilitätsbewegungen und Hedgingkosten dagegen wirken.",
@@ -4034,7 +4113,8 @@
         "L07-017",
         "L07-022"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-025",
@@ -4054,7 +4134,7 @@
           "meaning": "Gamma eines Puts im Black-Scholes-Modell"
         }
       ],
-      "intuition": "Bei identischen Marktparametern haben europäische Calls und Puts denselben Gammawert. Der Unterschied zwischen Call und Put steckt nicht in Gamma, sondern vor allem in Delta und Preisniveau.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Black-Scholes-Gamma hängt von S, σ, T und d1 ab.",
         "Der Gamma-Ausdruck enthält keine Call/Put-spezifische Vorzeichenänderung.",
@@ -4065,7 +4145,7 @@
         "Für den entsprechenden Put mit gleichem S,K,T,σ gilt ebenfalls Γ_put=0,021.",
         "Die unterschiedliche Put/Call-Positionierung wirkt erst bei der Aggregation über Positionen und Vorzeichen."
       ],
-      "financialMeaning": "Das ist wichtig für GEX: Nicht der Begriff Call oder Put allein bestimmt das Gamma-Exposure, sondern Position, Kontraktzahl und angenommene Dealer-Seite.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "pythonExample": "gamma_call=.021\nprint(gamma_call)",
       "question": "Warum kann man nicht einfach sagen: Calls sind positiv GEX und Puts negativ GEX?",
       "answer": "Weil Gamma selbst für Call und Put gleich ist; entscheidend ist die Positionierung bzw. Vorzeichenkonvention der aggregierten Exposure.",
@@ -4073,7 +4153,8 @@
         "L07-016",
         "L08-005"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-026",
@@ -4109,18 +4190,14 @@
           "meaning": "Standardnormalverteilungs-CDF"
         }
       ],
-      "intuition": "Dividenden senken den erwarteten Forward-Preis des Underlyings. Deshalb wird im Black-Scholes-Modell der Spot-Term mit e^{-qT} angepasst.",
-      "derivation": [
-        "Mit kontinuierlicher Dividendenrendite q wird der Spot-Carry diskontiert.",
-        "Der risikoneutrale Forward ist F=S e^{(r-q)T}.",
-        "Daraus entsteht die Dividendenanpassung in Black-Scholes."
-      ],
+      "intuition": "Black-Scholes ist kein Preisrezept, das aus dem Nichts kommt. Es ist das Ergebnis einer Modellkette: Das Underlying wird als Geometric Brownian Motion modelliert; Ito's Lemma liefert die Dynamik des Derivats; ein Delta-Hedge entfernt den zufälligen Term; No-Arbitrage zwingt das verbleibende Portfolio auf den risikofreien Zinssatz. Daraus entsteht die Black-Scholes-PDE, deren Lösung die bekannte Preisformel ist.",
+      "derivation": "Aus dS=μSdt+σSdW und Ito folgt dV=(V_t+μSV_S+½σ²S²V_SS)dt+σSV_SdW. Mit Δ=V_S wird der dW-Term durch das Underlying-Hedge eliminiert. Für ein self-financing Portfolio muss der sichere Rest zum Zins r wachsen. Daraus folgt V_t+½σ²S²V_SS+rSV_S-rV=0. Mit der Call-Endbedingung V(S,T)=max(S-K,0) erhält man die Black-Scholes-Lösung.",
       "workedExample": [
         "S=100, q=0,02, T=1.",
         "e^{-qT}=e^{-0,02}≈0,9802.",
         "Der angepasste Spot-Term ist damit ungefähr 98,02 statt 100, bevor N(d1) angewendet wird."
       ],
-      "financialMeaning": "Bei Indexoptionen können Dividenden- und Carry-Annahmen die Bewertung und insbesondere Forward-basierte Moneyness beeinflussen.",
+      "financialMeaning": "Black-Scholes ist heute weniger ein perfektes Marktmodell als ein Referenzrahmen. Der reale Optionsmarkt zeigt Smile, Skew und zeitabhängige Volatilität. Trotzdem sind die Struktur und die Greeks aus diesem Modell extrem wichtig.",
       "pythonExample": "import math\nprint(math.exp(-.02))",
       "question": "Warum ist die Dividendenrendite für einen Index besonders relevant?",
       "answer": "Weil erwartete Ausschüttungen den Forward-Preis des Index beeinflussen.",
@@ -4128,7 +4205,8 @@
         "L06-003",
         "L07-005"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L07-027",
@@ -4156,7 +4234,7 @@
           "meaning": "weitere Modellinputs"
         }
       ],
-      "intuition": "Implizite Volatilität ist keine direkt beobachtete historische Statistik. Sie ist die Volatilität, die ein Bewertungsmodell benötigt, um den beobachteten Optionspreis zu erklären.",
+      "intuition": "Implizite Volatilität ist keine direkt beobachtete Größe wie der heutige Spotpreis. Sie wird rückwärts aus einem Optionspreis berechnet. Man fragt: Welche Volatilität müsste das Bewertungsmodell annehmen, damit sein theoretischer Preis dem beobachteten Marktpreis entspricht? IV ist damit eine modellabhängige, aber extrem nützliche gemeinsame Sprache für Optionspreise.",
       "derivation": [
         "Setze den Marktpreis auf die Modellpreisfunktion.",
         "Halte S,K,r,T fest.",
@@ -4167,7 +4245,7 @@
         "Teste σ=20% → Modellpreis 7,4; σ=22% → 8,0.",
         "Dann ist σ_imp≈22%, sofern die Preisfunktion monoton in σ ist."
       ],
-      "financialMeaning": "IV ist die natürliche Koordinate des Optionsmarkts: Man vergleicht Optionen häufig über IV statt über rohe Dollarpreise.",
+      "financialMeaning": "Trader vergleichen häufig Optionen über IV statt über absolute Prämien. Allerdings ist IV nur sinnvoll im Kontext von Strike, Laufzeit, Zinsen, Dividenden und dem verwendeten Bewertungsmodell.",
       "pythonExample": "from scipy.optimize import brentq\n# In einer echten Implementierung würde hier die BS-Preisfunktion stehen.",
       "question": "Warum ist IV modellabhängig?",
       "answer": "Weil sie aus einer bestimmten Bewertungsformel rückwärts berechnet wird. Ändert sich das Modell, kann sich auch die implizite Volatilität ändern.",
@@ -4175,7 +4253,8 @@
         "L07-005",
         "L11-003"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-001",
@@ -4209,7 +4288,8 @@
       "prerequisites": [
         "L07-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-002",
@@ -4233,7 +4313,7 @@
           "meaning": "S Underlying."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. GEX ist keine magische Kennzahl: Es ist eine Anwendung von Gamma, Open Interest, Notional und einer expliziten Positionskonvention.",
+      "intuition": "Eine Option ist ein Vertrag, dessen Auszahlung vom Wert eines Basiswerts abhängt. Ein Call gibt dem Käufer das Recht, aber nicht die Pflicht, den Basiswert zu einem festgelegten Strike K zu kaufen; ein Put gibt das entsprechende Recht zu verkaufen. Für den Käufer ist die gezahlte Prämie der Preis dieses Rechts. Entscheidend ist: Der Optionswert entsteht nicht erst am Verfall. Schon heute ist das Recht wertvoll, weil bis zum Verfall viele mögliche Preiswege existieren und einige davon zu einer hohen Auszahlung führen können. Genau diese Unsicherheit ist später der Grund, warum Volatilität ein zentraler Input der Optionsbewertung ist.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -4244,14 +4324,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "GEX verbindet Gamma mit Open Interest und Notional. Das Vorzeichen ist eine Modell-/Positionskonvention und muss offengelegt werden.",
+      "financialMeaning": "Im Trading ist eine Option ein nichtlineares Instrument: Kleine Bewegungen des Underlyings können je nach Moneyness und Restlaufzeit sehr unterschiedliche Auswirkungen auf den Optionswert haben. Deshalb reichen einfache Long/Short-Betrachtungen nicht aus; Greeks beschreiben die lokalen Sensitivitäten.",
       "question": "Kannst du Gamma pro Option ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "gamma=.0008; oi=5000; M=100; S=5000\nprint(gamma*oi*M*S*S)",
       "prerequisites": [
         "L08-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-003",
@@ -4283,7 +4364,7 @@
           "meaning": "κ Vorzeichenkonvention."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. GEX ist keine magische Kennzahl: Es ist eine Anwendung von Gamma, Open Interest, Notional und einer expliziten Positionskonvention.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -4294,7 +4375,7 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "GEX verbindet Gamma mit Open Interest und Notional. Das Vorzeichen ist eine Modell-/Positionskonvention und muss offengelegt werden.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "question": "Kannst du Exposure als Gamma×Notional ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "gamma=.0008; oi=5000; M=100; S=5000\nprint(gamma*oi*M*S*S)",
@@ -4302,7 +4383,8 @@
         "L07-008",
         "L08-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-004",
@@ -4349,7 +4431,8 @@
         "L08-003",
         "L07-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-005",
@@ -4383,7 +4466,8 @@
       "prerequisites": [
         "L08-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-006",
@@ -4421,7 +4505,8 @@
       "prerequisites": [
         "L08-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-007",
@@ -4437,7 +4522,7 @@
           "meaning": "Dealer-Gamma."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. GEX ist keine magische Kennzahl: Es ist eine Anwendung von Gamma, Open Interest, Notional und einer expliziten Positionskonvention.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -4448,14 +4533,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "GEX verbindet Gamma mit Open Interest und Notional. Das Vorzeichen ist eine Modell-/Positionskonvention und muss offengelegt werden.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "question": "Kannst du Positive Dealer Gamma ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "gamma=.0008; oi=5000; M=100; S=5000\nprint(gamma*oi*M*S*S)",
       "prerequisites": [
         "L08-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-008",
@@ -4471,7 +4557,7 @@
           "meaning": "Dealer-Gamma."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. GEX ist keine magische Kennzahl: Es ist eine Anwendung von Gamma, Open Interest, Notional und einer expliziten Positionskonvention.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -4482,14 +4568,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "GEX verbindet Gamma mit Open Interest und Notional. Das Vorzeichen ist eine Modell-/Positionskonvention und muss offengelegt werden.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "question": "Kannst du Negative Dealer Gamma ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "gamma=.0008; oi=5000; M=100; S=5000\nprint(gamma*oi*M*S*S)",
       "prerequisites": [
         "L08-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-009",
@@ -4509,7 +4596,7 @@
           "meaning": "K Strike."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. GEX ist keine magische Kennzahl: Es ist eine Anwendung von Gamma, Open Interest, Notional und einer expliziten Positionskonvention.",
+      "intuition": "Gamma Exposure ist die Aggregation von Gamma über viele Optionskontrakte. Ein einzelner Kontrakt sagt, wie stark sich sein Delta bei einer Spotbewegung verändert. Open Interest sagt, wie viele Kontrakte dieser Art offen sind. Der Kontraktmultiplikator übersetzt Kontrakte in Underlying-Einheiten. GEX versucht, diese lokalen Sensitivitäten auf ein gesamtes Optionsbuch zu skalieren. Wichtig: Es ist eine modellierte Exposure, kein direkt beobachteter Orderflow.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -4520,14 +4607,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "GEX verbindet Gamma mit Open Interest und Notional. Das Vorzeichen ist eine Modell-/Positionskonvention und muss offengelegt werden.",
+      "financialMeaning": "GEX kann eine Hypothese darüber liefern, wie stark sich Hedging-Anforderungen bei Spotbewegungen verändern könnten. Ob daraus tatsächlich stabilisierende oder verstärkende Marktflüsse entstehen, hängt von der Dealer-Position, der Hedge-Regel und der verwendeten Vorzeichenkonvention ab.",
       "question": "Kannst du Net GEX über Strikes ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "gamma=.0008; oi=5000; M=100; S=5000\nprint(gamma*oi*M*S*S)",
       "prerequisites": [
         "L08-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-010",
@@ -4547,7 +4635,7 @@
           "meaning": "die in der Formel verwendete Größe"
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. GEX ist keine magische Kennzahl: Es ist eine Anwendung von Gamma, Open Interest, Notional und einer expliziten Positionskonvention.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -4558,14 +4646,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "GEX verbindet Gamma mit Open Interest und Notional. Das Vorzeichen ist eine Modell-/Positionskonvention und muss offengelegt werden.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "question": "Kannst du Gamma Flip ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "gamma=.0008; oi=5000; M=100; S=5000\nprint(gamma*oi*M*S*S)",
       "prerequisites": [
         "L08-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-011",
@@ -4585,7 +4674,7 @@
           "meaning": "t Zeit."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. GEX ist keine magische Kennzahl: Es ist eine Anwendung von Gamma, Open Interest, Notional und einer expliziten Positionskonvention.",
+      "intuition": "Delta ist die lokale Steigung der Optionswertfunktion. Wenn eine Option Delta 0,40 besitzt, bedeutet das nicht, dass sie immer genau 0,40 pro Punkt gewinnt. Es bedeutet: In der unmittelbaren Umgebung des aktuellen Preises verändert sich ihr Wert ungefähr um 0,40, wenn sich das Underlying um einen Punkt bewegt. Delta ist deshalb eine erste-Ordnungs-Näherung.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -4596,7 +4685,7 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "GEX verbindet Gamma mit Open Interest und Notional. Das Vorzeichen ist eine Modell-/Positionskonvention und muss offengelegt werden.",
+      "financialMeaning": "Delta wird als Hedge Ratio verwendet. Ein Long Call mit Delta 0,40 verhält sich für kleine Bewegungen ungefähr wie 0,40 Einheiten des Underlyings. Weil Delta selbst veränderlich ist, muss ein Delta-Hedge laufend angepasst werden.",
       "question": "Kannst du Charm als Delta-Zeitänderung ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "gamma=.0008; oi=5000; M=100; S=5000\nprint(gamma*oi*M*S*S)",
@@ -4604,7 +4693,8 @@
         "L07-007",
         "L08-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-012",
@@ -4632,7 +4722,7 @@
           "meaning": "Δ Delta."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. GEX ist keine magische Kennzahl: Es ist eine Anwendung von Gamma, Open Interest, Notional und einer expliziten Positionskonvention.",
+      "intuition": "Vanna ist eine Cross-Greek: Sie beschreibt, wie sich Delta verändert, wenn sich die Volatilität verändert. Das ist etwas anderes als Vega. Vega fragt: 'Wie verändert sich der Optionswert bei einer IV-Änderung?' Vanna fragt: 'Wie verändert sich die Hedge-Sensitivität Delta bei einer IV-Änderung?' Damit verbindet Vanna Volatilitätsbewegungen direkt mit potenziellen Hedge-Anpassungen.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -4643,7 +4733,7 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "GEX verbindet Gamma mit Open Interest und Notional. Das Vorzeichen ist eine Modell-/Positionskonvention und muss offengelegt werden.",
+      "financialMeaning": "Vanna wird relevant, wenn Spot und Volatilität gemeinsam laufen. Gerade bei Indexoptionen kann ein IV-Rückgang oder -Anstieg das Delta eines großen Optionsbuchs verändern und dadurch zusätzliche Hedge-Flows erzeugen.",
       "question": "Kannst du Vanna als Cross-Greek ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "gamma=.0008; oi=5000; M=100; S=5000\nprint(gamma*oi*M*S*S)",
@@ -4651,7 +4741,8 @@
         "L07-007",
         "L07-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-013",
@@ -4683,7 +4774,7 @@
           "meaning": "Spotpreis"
         }
       ],
-      "intuition": "GEX entsteht, wenn die lokale Krümmung einer einzelnen Option auf die Größe des gesamten offenen Kontraktbestands skaliert wird.",
+      "intuition": "Gamma Exposure ist die Aggregation von Gamma über viele Optionskontrakte. Ein einzelner Kontrakt sagt, wie stark sich sein Delta bei einer Spotbewegung verändert. Open Interest sagt, wie viele Kontrakte dieser Art offen sind. Der Kontraktmultiplikator übersetzt Kontrakte in Underlying-Einheiten. GEX versucht, diese lokalen Sensitivitäten auf ein gesamtes Optionsbuch zu skalieren. Wichtig: Es ist eine modellierte Exposure, kein direkt beobachteter Orderflow.",
       "derivation": [
         "Ein Kontrakt hat Gamma Γ.",
         "OI sagt, wie viele Kontrakte offen sind.",
@@ -4695,7 +4786,7 @@
         "Der rohe Produktterm Γ·OI·M·S² ist 0,0005·20.000·100·25.000.000=25.000.000.000.",
         "Das zeigt, warum Einheiten und Skalierung in GEX-Charts unbedingt dokumentiert werden müssen."
       ],
-      "financialMeaning": "GEX-Zahlen verschiedener Anbieter sind nur vergleichbar, wenn Definition, Multiplikator, Preisbasis und Vorzeichenkonvention identisch sind.",
+      "financialMeaning": "GEX kann eine Hypothese darüber liefern, wie stark sich Hedging-Anforderungen bei Spotbewegungen verändern könnten. Ob daraus tatsächlich stabilisierende oder verstärkende Marktflüsse entstehen, hängt von der Dealer-Position, der Hedge-Regel und der verwendeten Vorzeichenkonvention ab.",
       "pythonExample": "gamma=.0005; oi=20000; M=100; S=5000\nprint(gamma*oi*M*S**2)",
       "question": "Welche vier Bausteine musst du bei einem GEX-Wert prüfen?",
       "answer": "Mindestens Gamma, Open Interest, Kontraktmultiplikator und die genaue Exposure-/Vorzeichenkonvention.",
@@ -4704,7 +4795,8 @@
         "L08-003",
         "L08-004"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-014",
@@ -4736,7 +4828,7 @@
           "meaning": "Preis-Skalierung, z.B. S oder S²"
         }
       ],
-      "intuition": "Es gibt nicht den einen universellen GEX-Standard. Ein seriöser GEX-Ansatz muss offenlegen, welche Seite als Dealer angenommen wird und welche Einheiten verwendet werden.",
+      "intuition": "Gamma Exposure ist die Aggregation von Gamma über viele Optionskontrakte. Ein einzelner Kontrakt sagt, wie stark sich sein Delta bei einer Spotbewegung verändert. Open Interest sagt, wie viele Kontrakte dieser Art offen sind. Der Kontraktmultiplikator übersetzt Kontrakte in Underlying-Einheiten. GEX versucht, diese lokalen Sensitivitäten auf ein gesamtes Optionsbuch zu skalieren. Wichtig: Es ist eine modellierte Exposure, kein direkt beobachteter Orderflow.",
       "derivation": [
         "Definiere zunächst die Position, die aggregiert wird.",
         "Wähle die Preis- und Notional-Skalierung.",
@@ -4748,7 +4840,7 @@
         "Wenn einer das Dealer- und der andere das Customer-Exposure mit umgekehrtem Vorzeichen zeigt, können beide intern korrekt sein.",
         "Ohne Dokumentation ist der direkte Vergleich sinnlos."
       ],
-      "financialMeaning": "Bei GEX-Analysen ist die Konvention Teil des Modells, nicht bloß eine kosmetische Chart-Einstellung.",
+      "financialMeaning": "GEX kann eine Hypothese darüber liefern, wie stark sich Hedging-Anforderungen bei Spotbewegungen verändern könnten. Ob daraus tatsächlich stabilisierende oder verstärkende Marktflüsse entstehen, hängt von der Dealer-Position, der Hedge-Regel und der verwendeten Vorzeichenkonvention ab.",
       "pythonExample": "gex_customer=2.0\nprint('dealer convention:', -gex_customer)",
       "question": "Warum ist ein GEX-Chart ohne Methodikbeschreibung gefährlich?",
       "answer": "Weil Vorzeichen und Skalierung falsch interpretiert werden können und daraus eine gegenteilige Trading-These entstehen kann.",
@@ -4756,7 +4848,8 @@
         "L08-005",
         "L08-013"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-015",
@@ -4776,7 +4869,7 @@
           "meaning": "Spot-/Preisniveau, bei dem das Netto-Gamma die Null kreuzt"
         }
       ],
-      "intuition": "Der Gamma Flip ist keine magische Widerstandszone. Er ist zunächst eine Nullstelle einer aggregierten Exposure-Funktion.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Berechne Netto-GEX für verschiedene Spotniveaus.",
         "Suche den Punkt, an dem das Vorzeichen wechselt.",
@@ -4788,7 +4881,7 @@
         "Eine lineare Interpolation liefert Flip≈4983,3.",
         "Das ist eine Schätzung innerhalb des verwendeten Modells."
       ],
-      "financialMeaning": "Der Flip kann als Regime-Marker für unterschiedliche Hedging-Anreize dienen, nicht als garantierte Kursbarriere.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "pythonExample": "import numpy as np\nx1,g1=4950,-.2\nx2,g2=5000,.1\nflip=x1+(0-g1)*(x2-x1)/(g2-g1)\nprint(flip)",
       "question": "Was sagt ein Gamma Flip mathematisch tatsächlich aus?",
       "answer": "Dass die modellierte Netto-Gamma-Funktion an diesem Niveau ungefähr null ist und ihr Vorzeichen wechselt.",
@@ -4796,7 +4889,8 @@
         "L08-009",
         "L02-008"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-016",
@@ -4820,7 +4914,7 @@
           "meaning": "Index des Strikes"
         }
       ],
-      "intuition": "Ein einzelner Strike kann irreführend sein. Erst die Aggregation zeigt, ob sich positive und negative Gamma-Buckets gegenseitig aufheben oder verstärken.",
+      "intuition": "Gamma Exposure ist die Aggregation von Gamma über viele Optionskontrakte. Ein einzelner Kontrakt sagt, wie stark sich sein Delta bei einer Spotbewegung verändert. Open Interest sagt, wie viele Kontrakte dieser Art offen sind. Der Kontraktmultiplikator übersetzt Kontrakte in Underlying-Einheiten. GEX versucht, diese lokalen Sensitivitäten auf ein gesamtes Optionsbuch zu skalieren. Wichtig: Es ist eine modellierte Exposure, kein direkt beobachteter Orderflow.",
       "derivation": [
         "Berechne GEX_i für jeden Strike.",
         "Achte darauf, dass alle Werte dieselbe Einheit haben.",
@@ -4832,7 +4926,7 @@
         "5100: -80 Mio.",
         "Netto=40+120-80=80 Mio."
       ],
-      "financialMeaning": "Net GEX liefert eine kompakte Zusammenfassung; die Verteilung über Strikes bleibt trotzdem wichtig, weil Hedging lokal wirkt.",
+      "financialMeaning": "GEX kann eine Hypothese darüber liefern, wie stark sich Hedging-Anforderungen bei Spotbewegungen verändern könnten. Ob daraus tatsächlich stabilisierende oder verstärkende Marktflüsse entstehen, hängt von der Dealer-Position, der Hedge-Regel und der verwendeten Vorzeichenkonvention ab.",
       "pythonExample": "gex=np.array([40,120,-80])\nprint(gex.sum())",
       "question": "Warum darf man nur Net GEX nicht isoliert betrachten?",
       "answer": "Weil zwei Bücher denselben Netzwert haben können, aber völlig unterschiedliche Strike-Strukturen und damit unterschiedliche lokale Hedge-Flows.",
@@ -4840,7 +4934,8 @@
         "L08-009",
         "L08-015"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-017",
@@ -4864,7 +4959,7 @@
           "meaning": "Spotbewegung"
         }
       ],
-      "intuition": "Gamma beschreibt, wie schnell sich Delta verändert. Wenn ein Dealer Delta-neutral bleiben will, muss er seine Underlying-Position entsprechend anpassen.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Für eine Optionsposition ändert sich Delta ungefähr um Γ·dS.",
         "Der Hedge muss diese Deltaänderung kompensieren.",
@@ -4875,7 +4970,7 @@
         "S steigt um 10 Punkte.",
         "Benötigte Hedgeänderung≈-2 Mio.·10=-20 Mio. Einheiten in dieser abstrakten Skalierung."
       ],
-      "financialMeaning": "Das Vorzeichen liefert die Intuition für stabilisierende vs. verstärkende Hedging-Flows – aber nur unter einer klaren Dealer-Positionskonvention.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "pythonExample": "gamma_net=2e6; dS=10\nprint(-gamma_net*dS)",
       "question": "Warum muss das Vorzeichen des Hedgeflows immer zusammen mit der Positionskonvention betrachtet werden?",
       "answer": "Weil Γ_net je nach Definition Customer- oder Dealer-Exposure darstellen kann; erst die Kombination mit der Hedge-Regel ergibt die ökonomische Richtung.",
@@ -4884,7 +4979,8 @@
         "L07-018",
         "L08-014"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-018",
@@ -4920,7 +5016,7 @@
           "meaning": "Restlaufzeit"
         }
       ],
-      "intuition": "Bei sehr kurzer Restlaufzeit wird der Faktor 1/√T groß. In ATM-Nähe kann Gamma deshalb sehr groß werden, während es außerhalb des relevanten Preisbereichs schnell abfällt.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Betrachte den Nenner σ√T.",
         "Wenn T kleiner wird, sinkt √T.",
@@ -4932,7 +5028,7 @@
         "Der Faktor 1/√T steigt um 1/√0,25=2.",
         "Das ist eine reine Skalierungsintuition; d1 und andere Größen verändern sich ebenfalls."
       ],
-      "financialMeaning": "Das erklärt, warum 0DTE-Gamma sehr stark um aktuelle Strikes konzentriert sein kann.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "pythonExample": "import math\nprint(1/math.sqrt(.25), 1/math.sqrt(1))",
       "question": "Warum bedeutet hohes 0DTE-Gamma nicht automatisch, dass der Markt steigen oder fallen muss?",
       "answer": "Gamma ist eine Krümmung/Sensitivität, keine Richtungsprognose. Die Handelsrichtung hängt vom Vorzeichen der Position und der tatsächlichen Hedgingreaktion ab.",
@@ -4941,7 +5037,8 @@
         "L08-013",
         "L07-022"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-019",
@@ -4965,7 +5062,7 @@
           "meaning": "Zeit"
         }
       ],
-      "intuition": "Selbst wenn der Spot unverändert bleibt, kann sich das Delta einer Option durch den Zeitablauf verändern. Genau daraus entstehen potenzielle Hedge-Anpassungen ohne neue Spotbewegung.",
+      "intuition": "Delta ist die lokale Steigung der Optionswertfunktion. Wenn eine Option Delta 0,40 besitzt, bedeutet das nicht, dass sie immer genau 0,40 pro Punkt gewinnt. Es bedeutet: In der unmittelbaren Umgebung des aktuellen Preises verändert sich ihr Wert ungefähr um 0,40, wenn sich das Underlying um einen Punkt bewegt. Delta ist deshalb eine erste-Ordnungs-Näherung.",
       "derivation": [
         "Delta hängt von S, σ, r und T ab.",
         "Wenn Zeit vergeht, verändert sich T und damit Delta.",
@@ -4976,7 +5073,7 @@
         "Die Änderung ist -0,03.",
         "Ein delta-neutraler Dealer muss seine Hedgeposition entsprechend neu ausrichten."
       ],
-      "financialMeaning": "Charm ist besonders bei 0DTE relevant, weil ein Tag Zeit im Verhältnis zur Restlaufzeit enorm groß sein kann.",
+      "financialMeaning": "Delta wird als Hedge Ratio verwendet. Ein Long Call mit Delta 0,40 verhält sich für kleine Bewegungen ungefähr wie 0,40 Einheiten des Underlyings. Weil Delta selbst veränderlich ist, muss ein Delta-Hedge laufend angepasst werden.",
       "pythonExample": "delta0=.50; delta1=.47\nprint(delta1-delta0)",
       "question": "Warum kann Dealer Flow auch ohne Spotbewegung entstehen?",
       "answer": "Weil Delta durch Zeitablauf und Volatilitätsänderungen driftet; der Hedge muss trotzdem angepasst werden.",
@@ -4984,7 +5081,8 @@
         "L07-015",
         "L07-022"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-020",
@@ -5016,7 +5114,7 @@
           "meaning": "Delta"
         }
       ],
-      "intuition": "Vanna beschreibt eine Wechselwirkung: Wie stark verändert sich Delta, wenn sich die Volatilität verändert?",
+      "intuition": "Vanna ist eine Cross-Greek: Sie beschreibt, wie sich Delta verändert, wenn sich die Volatilität verändert. Das ist etwas anderes als Vega. Vega fragt: 'Wie verändert sich der Optionswert bei einer IV-Änderung?' Vanna fragt: 'Wie verändert sich die Hedge-Sensitivität Delta bei einer IV-Änderung?' Damit verbindet Vanna Volatilitätsbewegungen direkt mit potenziellen Hedge-Anpassungen.",
       "derivation": [
         "Delta hängt unter Black-Scholes von d1 und damit von σ ab.",
         "Leite Delta nach σ ab.",
@@ -5027,7 +5125,7 @@
         "Wenn Vanna=0,80 pro Volatilitätseinheit ist und σ um 1 Prozentpunkt steigt, ändert sich Delta lokal um 0,80·0,01=0,008.",
         "Der Hedge muss entsprechend angepasst werden."
       ],
-      "financialMeaning": "Vanna hilft zu verstehen, warum Volatilitätsbewegungen selbst dann Hedge-Flows erzeugen können, wenn der Spot zunächst wenig läuft.",
+      "financialMeaning": "Vanna wird relevant, wenn Spot und Volatilität gemeinsam laufen. Gerade bei Indexoptionen kann ein IV-Rückgang oder -Anstieg das Delta eines großen Optionsbuchs verändern und dadurch zusätzliche Hedge-Flows erzeugen.",
       "pythonExample": "vanna=.80; dsigma=.01\nprint(vanna*dsigma)",
       "question": "Was ist der entscheidende Unterschied zwischen Gamma und Vanna?",
       "answer": "Gamma verbindet Delta mit Spotbewegungen; Vanna verbindet Delta mit Volatilitätsbewegungen.",
@@ -5035,7 +5133,8 @@
         "L07-016",
         "L07-021"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-021",
@@ -5055,7 +5154,7 @@
           "meaning": "tatsächlich beobachteter Kauf-/Verkaufsfluss"
         }
       ],
-      "intuition": "GEX ist eine aus Optionspositionen abgeleitete Sensitivität. Es ist nicht dasselbe wie tatsächlich ausgeführte Orders.",
+      "intuition": "Gamma Exposure ist die Aggregation von Gamma über viele Optionskontrakte. Ein einzelner Kontrakt sagt, wie stark sich sein Delta bei einer Spotbewegung verändert. Open Interest sagt, wie viele Kontrakte dieser Art offen sind. Der Kontraktmultiplikator übersetzt Kontrakte in Underlying-Einheiten. GEX versucht, diese lokalen Sensitivitäten auf ein gesamtes Optionsbuch zu skalieren. Wichtig: Es ist eine modellierte Exposure, kein direkt beobachteter Orderflow.",
       "derivation": [
         "GEX beschreibt, wie sich Delta bei Spotbewegungen ändern würde.",
         "Ein Dealer könnte delta-hedgen, muss aber nicht exakt kontinuierlich oder vollständig hedgen.",
@@ -5066,7 +5165,7 @@
         "Einer hedgt nur teilweise, der andere über Futures.",
         "Der beobachtete Marktflow kann deshalb deutlich von einer simplen GEX-Prognose abweichen."
       ],
-      "financialMeaning": "GEX ist ein Strukturmodell und kein Beweis für eine konkrete Marktbewegung.",
+      "financialMeaning": "GEX kann eine Hypothese darüber liefern, wie stark sich Hedging-Anforderungen bei Spotbewegungen verändern könnten. Ob daraus tatsächlich stabilisierende oder verstärkende Marktflüsse entstehen, hängt von der Dealer-Position, der Hedge-Regel und der verwendeten Vorzeichenkonvention ab.",
       "pythonExample": "gex=100\nhedge_ratio=.5\nprint(gex*hedge_ratio)",
       "question": "Warum sollte man GEX nicht als deterministische Kursprognose verwenden?",
       "answer": "Weil GEX nur einen potenziellen Hedge-Mechanismus beschreibt und Annahmen über Positionen und Hedgingverhalten enthält.",
@@ -5074,7 +5173,8 @@
         "L08-014",
         "L08-017"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L08-022",
@@ -5094,7 +5194,7 @@
           "meaning": "hypothetische Hedge-Reaktion"
         }
       ],
-      "intuition": "Eine gute GEX-Analyse endet nicht mit 'positives Gamma = gut'. Sie formuliert eine überprüfbare Hypothese.",
+      "intuition": "Gamma Exposure ist die Aggregation von Gamma über viele Optionskontrakte. Ein einzelner Kontrakt sagt, wie stark sich sein Delta bei einer Spotbewegung verändert. Open Interest sagt, wie viele Kontrakte dieser Art offen sind. Der Kontraktmultiplikator übersetzt Kontrakte in Underlying-Einheiten. GEX versucht, diese lokalen Sensitivitäten auf ein gesamtes Optionsbuch zu skalieren. Wichtig: Es ist eine modellierte Exposure, kein direkt beobachteter Orderflow.",
       "derivation": [
         "Formuliere die Exposure-Annahme.",
         "Leite die erwartete Hedge-Reaktion ab.",
@@ -5106,7 +5206,7 @@
         "Teste Tage mit hohem GEX gegen Tage mit niedrigem GEX.",
         "Kontrolliere zusätzlich VIX/IV, News, Trend und Liquidität."
       ],
-      "financialMeaning": "Damit wird GEX von einer Chartintuition zu einem Quant-Research-Problem.",
+      "financialMeaning": "GEX kann eine Hypothese darüber liefern, wie stark sich Hedging-Anforderungen bei Spotbewegungen verändern könnten. Ob daraus tatsächlich stabilisierende oder verstärkende Marktflüsse entstehen, hängt von der Dealer-Position, der Hedge-Regel und der verwendeten Vorzeichenkonvention ab.",
       "pythonExample": "import numpy as np\n# Nur Struktur: echte Studie braucht historische Daten.\nprint(np.mean([1,2,3]))",
       "question": "Was wäre ein sauberer Test für die Behauptung 'positives GEX dämpft Volatilität'?",
       "answer": "Eine definierte Stichprobe, klare GEX-Berechnung, Kontrollvariablen, ein ex ante festgelegtes Volatilitätsmaß und Out-of-sample-Evaluation.",
@@ -5115,7 +5215,8 @@
         "L14-001",
         "L14-003"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-001",
@@ -5153,7 +5254,8 @@
       "prerequisites": [
         "L08-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-002",
@@ -5195,7 +5297,8 @@
       "prerequisites": [
         "L09-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-003",
@@ -5215,7 +5318,7 @@
           "meaning": "Δt Zeitintervall."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Stochastische Prozesse beschreiben zufällige Dynamik über die Zeit und bilden die Brücke zu SDEs.",
+      "intuition": "Brownian Motion ist ein mathematisches Modell für kontinuierliche Zufallsbewegung. Seine Inkremente sind normalverteilt, unabhängig über disjunkte Zeitintervalle und haben Varianz proportional zur Länge des Intervalls. Die zentrale Konsequenz ist die √T-Skalierung: Viermal so viel Zeit bedeutet doppelte Standardabweichung, nicht vierfache.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -5226,14 +5329,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Stochastische Prozesse modellieren zufällige Dynamik über die Zeit und bereiten SDEs vor.",
+      "financialMeaning": "Brownian Motion ist ein Baustein für GBM, Black-Scholes und viele SDE-Modelle. Gleichzeitig ist seine Kontinuität eine starke Modellannahme, die reale Sprünge nicht abbildet.",
       "question": "Kannst du Brownian Motion ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nz=np.random.normal(size=10000); print(z.mean(),z.std())",
       "prerequisites": [
         "L09-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-004",
@@ -5271,7 +5375,8 @@
       "prerequisites": [
         "L09-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-005",
@@ -5309,7 +5414,8 @@
       "prerequisites": [
         "L09-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-006",
@@ -5347,7 +5453,8 @@
       "prerequisites": [
         "L09-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-007",
@@ -5379,7 +5486,7 @@
           "meaning": "Brownian Motion."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Stochastische Prozesse beschreiben zufällige Dynamik über die Zeit und bilden die Brücke zu SDEs.",
+      "intuition": "Brownian Motion ist ein mathematisches Modell für kontinuierliche Zufallsbewegung. Seine Inkremente sind normalverteilt, unabhängig über disjunkte Zeitintervalle und haben Varianz proportional zur Länge des Intervalls. Die zentrale Konsequenz ist die √T-Skalierung: Viermal so viel Zeit bedeutet doppelte Standardabweichung, nicht vierfache.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -5390,14 +5497,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Stochastische Prozesse modellieren zufällige Dynamik über die Zeit und bereiten SDEs vor.",
+      "financialMeaning": "Brownian Motion ist ein Baustein für GBM, Black-Scholes und viele SDE-Modelle. Gleichzeitig ist seine Kontinuität eine starke Modellannahme, die reale Sprünge nicht abbildet.",
       "question": "Kannst du Geometric Brownian Motion ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nz=np.random.normal(size=10000); print(z.mean(),z.std())",
       "prerequisites": [
         "L09-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-008",
@@ -5443,7 +5551,8 @@
       "prerequisites": [
         "L09-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-009",
@@ -5485,7 +5594,8 @@
       "prerequisites": [
         "L09-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-010",
@@ -5527,7 +5637,8 @@
       "prerequisites": [
         "L09-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-011",
@@ -5577,7 +5688,8 @@
       "prerequisites": [
         "L09-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-012",
@@ -5605,7 +5717,7 @@
           "meaning": "die in der Formel verwendete Größe"
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Stochastische Prozesse beschreiben zufällige Dynamik über die Zeit und bilden die Brücke zu SDEs.",
+      "intuition": "Brownian Motion ist ein mathematisches Modell für kontinuierliche Zufallsbewegung. Seine Inkremente sind normalverteilt, unabhängig über disjunkte Zeitintervalle und haben Varianz proportional zur Länge des Intervalls. Die zentrale Konsequenz ist die √T-Skalierung: Viermal so viel Zeit bedeutet doppelte Standardabweichung, nicht vierfache.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -5616,14 +5728,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Stochastische Prozesse modellieren zufällige Dynamik über die Zeit und bereiten SDEs vor.",
+      "financialMeaning": "Brownian Motion ist ein Baustein für GBM, Black-Scholes und viele SDE-Modelle. Gleichzeitig ist seine Kontinuität eine starke Modellannahme, die reale Sprünge nicht abbildet.",
       "question": "Kannst du Korrelierte Brownian Motions ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nz=np.random.normal(size=10000); print(z.mean(),z.std())",
       "prerequisites": [
         "L09-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-013",
@@ -5647,7 +5760,7 @@
           "meaning": "Länge des Zeitintervalls"
         }
       ],
-      "intuition": "Brownian Motion macht eine fundamentale Aussage: Die Varianz der Inkremente wächst linear mit der Zeit, nicht die Standardabweichung.",
+      "intuition": "Brownian Motion ist ein mathematisches Modell für kontinuierliche Zufallsbewegung. Seine Inkremente sind normalverteilt, unabhängig über disjunkte Zeitintervalle und haben Varianz proportional zur Länge des Intervalls. Die zentrale Konsequenz ist die √T-Skalierung: Viermal so viel Zeit bedeutet doppelte Standardabweichung, nicht vierfache.",
       "derivation": [
         "Inkremente sind normalverteilt.",
         "Var(W_t-W_s)=t-s.",
@@ -5658,7 +5771,7 @@
         "Für Δt=4 gilt Standardabweichung 2.",
         "Eine viermal längere Zeitspanne erzeugt also nur doppelte typische Schwankungsbreite."
       ],
-      "financialMeaning": "Diese √T-Skalierung ist zentral für Volatilität, Black-Scholes und Risikomodelle.",
+      "financialMeaning": "Brownian Motion ist ein Baustein für GBM, Black-Scholes und viele SDE-Modelle. Gleichzeitig ist seine Kontinuität eine starke Modellannahme, die reale Sprünge nicht abbildet.",
       "pythonExample": "import math\nprint(math.sqrt(1), math.sqrt(4))",
       "question": "Warum skaliert die typische Bewegung mit √T?",
       "answer": "Weil unabhängige Zufallsbeiträge in der Varianz addieren; die Standardabweichung ist die Quadratwurzel der Varianz.",
@@ -5666,7 +5779,8 @@
         "L09-003",
         "L04-006"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-014",
@@ -5717,7 +5831,8 @@
         "L09-003",
         "L09-007"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-015",
@@ -5769,7 +5884,8 @@
         "L09-014",
         "L10-003"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-016",
@@ -5807,7 +5923,8 @@
         "L09-006",
         "L10-009"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-017",
@@ -5845,7 +5962,8 @@
         "L09-003",
         "L10-004"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-018",
@@ -5892,7 +6010,8 @@
         "L09-003",
         "L15-004"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-019",
@@ -5939,7 +6058,8 @@
         "L09-003",
         "L09-009"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L09-020",
@@ -5963,7 +6083,7 @@
           "meaning": "kleines Zeitintervall"
         }
       ],
-      "intuition": "Mehrere Assets bewegen sich nicht unabhängig. Korrelation verbindet ihre Zufallskomponenten und ist deshalb zentral für Portfolio- und Multi-Asset-Modelle.",
+      "intuition": "Brownian Motion ist ein mathematisches Modell für kontinuierliche Zufallsbewegung. Seine Inkremente sind normalverteilt, unabhängig über disjunkte Zeitintervalle und haben Varianz proportional zur Länge des Intervalls. Die zentrale Konsequenz ist die √T-Skalierung: Viermal so viel Zeit bedeutet doppelte Standardabweichung, nicht vierfache.",
       "derivation": [
         "Ein unabhängiger Fall hat ρ=0.",
         "Perfekte positive Korrelation hat ρ=1.",
@@ -5974,7 +6094,7 @@
         "Die infinitesimale Kreuzvariation ist 0,006.",
         "Das ist die Grundlage, aus der später Kovarianzmatrizen für mehrere Assets entstehen."
       ],
-      "financialMeaning": "Korrelation beeinflusst Portfolio-Risiko, Basket-Optionen und Cross-Asset-Hedging.",
+      "financialMeaning": "Brownian Motion ist ein Baustein für GBM, Black-Scholes und viele SDE-Modelle. Gleichzeitig ist seine Kontinuität eine starke Modellannahme, die reale Sprünge nicht abbildet.",
       "pythonExample": "rho=.6; dt=.01\nprint(rho*dt)",
       "question": "Warum ist Korrelation für Portfolio-Risiko wichtiger als die Einzelvolatilität allein?",
       "answer": "Weil die Kovarianz bestimmt, wie sich die Risiken gemeinsam addieren oder teilweise aufheben.",
@@ -5982,7 +6102,8 @@
         "L03-004",
         "L04-009"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-001",
@@ -6028,7 +6149,8 @@
       "prerequisites": [
         "L09-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-002",
@@ -6070,7 +6192,8 @@
       "prerequisites": [
         "L10-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-003",
@@ -6113,7 +6236,8 @@
         "L02-007",
         "L09-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-004",
@@ -6151,7 +6275,8 @@
       "prerequisites": [
         "L10-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-005",
@@ -6197,7 +6322,8 @@
       "prerequisites": [
         "L10-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-006",
@@ -6239,7 +6365,8 @@
       "prerequisites": [
         "L10-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-007",
@@ -6285,7 +6412,8 @@
       "prerequisites": [
         "L10-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-008",
@@ -6317,18 +6445,14 @@
           "meaning": "r Zins."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Stochastischer Kalkül erweitert die gewöhnliche Analysis um Zufallsprozesse und erklärt die Black-Scholes-Struktur.",
-      "derivation": [
-        "Bilde ein Delta-gehedgtes Portfolio.",
-        "Der Zufallsterm wird lokal eliminiert.",
-        "No-Arbitrage zwingt die verbleibende Rendite auf den risikofreien Zins und ergibt die PDE."
-      ],
+      "intuition": "Black-Scholes ist kein Preisrezept, das aus dem Nichts kommt. Es ist das Ergebnis einer Modellkette: Das Underlying wird als Geometric Brownian Motion modelliert; Ito's Lemma liefert die Dynamik des Derivats; ein Delta-Hedge entfernt den zufälligen Term; No-Arbitrage zwingt das verbleibende Portfolio auf den risikofreien Zinssatz. Daraus entsteht die Black-Scholes-PDE, deren Lösung die bekannte Preisformel ist.",
+      "derivation": "Aus dS=μSdt+σSdW und Ito folgt dV=(V_t+μSV_S+½σ²S²V_SS)dt+σSV_SdW. Mit Δ=V_S wird der dW-Term durch das Underlying-Hedge eliminiert. Für ein self-financing Portfolio muss der sichere Rest zum Zins r wachsen. Daraus folgt V_t+½σ²S²V_SS+rSV_S-rV=0. Mit der Call-Endbedingung V(S,T)=max(S-K,0) erhält man die Black-Scholes-Lösung.",
       "workedExample": [
         "Betrachte ein kleines numerisches Beispiel zur Formel V_t+1/2σ²S²V_{SS}+rSV_S-rV=0.",
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Stochastischer Kalkül ist das Werkzeug hinter GBM, Hedging und der Black-Scholes-PDE.",
+      "financialMeaning": "Black-Scholes ist heute weniger ein perfektes Marktmodell als ein Referenzrahmen. Der reale Optionsmarkt zeigt Smile, Skew und zeitabhängige Volatilität. Trotzdem sind die Struktur und die Greeks aus diesem Modell extrem wichtig.",
       "question": "Kannst du Black-Scholes PDE ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nS0=100; mu=.05; sig=.2; t=1\nprint(S0*np.exp((mu-sig**2/2)*t+sig*np.sqrt(t)*np.random.normal()))",
@@ -6336,7 +6460,8 @@
         "L07-004",
         "L10-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-009",
@@ -6364,7 +6489,7 @@
           "meaning": "Q risikoneutrales Maß."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Stochastischer Kalkül erweitert die gewöhnliche Analysis um Zufallsprozesse und erklärt die Black-Scholes-Struktur.",
+      "intuition": "Feynman-Kac verbindet zwei scheinbar unterschiedliche Arten, ein Derivat zu beschreiben: eine partielle Differentialgleichung und einen diskontierten Erwartungswert. Die PDE beschreibt die lokale Dynamik; der Erwartungswert beschreibt die gesamte zukünftige Auszahlung unter dem risikoneutralen Maß. Unter geeigneten Voraussetzungen sind beide Darstellungen äquivalent.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -6375,7 +6500,7 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Stochastischer Kalkül ist das Werkzeug hinter GBM, Hedging und der Black-Scholes-PDE.",
+      "financialMeaning": "Diese Verbindung erklärt, warum Monte-Carlo-Verfahren für viele Derivate so natürlich sind: Wenn eine geschlossene PDE-Lösung schwer ist, kann man den entsprechenden Erwartungswert simulieren.",
       "question": "Kannst du Feynman-Kac ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nS0=100; mu=.05; sig=.2; t=1\nprint(S0*np.exp((mu-sig**2/2)*t+sig*np.sqrt(t)*np.random.normal()))",
@@ -6383,7 +6508,8 @@
         "L10-008",
         "L04-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-010",
@@ -6425,7 +6551,8 @@
       "prerequisites": [
         "L10-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-011",
@@ -6475,7 +6602,8 @@
       "prerequisites": [
         "L10-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-012",
@@ -6525,7 +6653,8 @@
       "prerequisites": [
         "L10-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-013",
@@ -6557,19 +6686,14 @@
           "meaning": "stochastische Änderung des Prozesses"
         }
       ],
-      "intuition": "Ito's Lemma ist die Kettenregel für stochastische Prozesse. Der entscheidende Zusatz ist der zweite Ableitungsterm, weil (dW)² auf der Ordnung dt liegt.",
-      "derivation": [
-        "Beginne mit der Taylor-Entwicklung zweiter Ordnung.",
-        "Setze dX=μdt+σdW ein.",
-        "Nutze (dt)²≈0, dt·dW≈0 und (dW)²=dt.",
-        "Der ½f_xxσ²dt-Term bleibt erhalten."
-      ],
+      "intuition": "Ito's Lemma ist die stochastische Version der Kettenregel. Bei einer gewöhnlichen Funktion würde man f'(X)dX verwenden. Bei einem Prozess mit Brownian Noise reicht das nicht, weil (dW)^2 im Grenzprozess auf der Größenordnung dt bleibt. Deshalb erscheint zusätzlich ein Term mit der zweiten Ableitung.",
+      "derivation": "Für f(t,X_t) führt die Taylor-Entwicklung zweiter Ordnung zu f_tdt+f_xdX+½f_xx(dX)^2. Für dX=μdt+σdW gelten (dt)^2≈0, dt dW≈0 und (dW)^2≈dt. Damit bleibt der zusätzliche Term ½f_xxσ²dt erhalten.",
       "workedExample": [
         "Für f(x)=x² gilt f_x=2x und f_xx=2.",
         "Dann df=2X dX + (dX)².",
         "Bei dX=μdt+σdW folgt df=(2μX+σ²)dt+2σX dW."
       ],
-      "financialMeaning": "Ito's Lemma ist der mathematische Schlüssel von GBM → Lognormalität → Black-Scholes.",
+      "financialMeaning": "Ito's Lemma ist die technische Brücke zwischen einer SDE des Underlyings und der SDE eines davon abhängigen Derivats. Ohne diesen zweiten Ordnungsterm würde die Black-Scholes-Herleitung nicht funktionieren.",
       "pythonExample": "import sympy as sp\nx,mu,sigma=sp.symbols('x mu sigma')\nprint('For f=x^2: drift term = 2*mu*x + sigma^2')",
       "question": "Warum bleibt bei Ito der zweite Ableitungsterm erhalten?",
       "answer": "Weil die quadratische Variation des Brownian Terms von Ordnung dt ist und daher im Grenzprozess nicht verschwindet.",
@@ -6577,7 +6701,8 @@
         "L09-017",
         "L02-005"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-014",
@@ -6625,7 +6750,8 @@
         "L09-015",
         "L10-003"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-015",
@@ -6672,7 +6798,8 @@
         "L06-006",
         "L07-018"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-016",
@@ -6700,7 +6827,7 @@
           "meaning": "Underlying"
         }
       ],
-      "intuition": "Der Kern des Black-Scholes-Arguments ist eine lokale Konstruktion: Wähle Δ so, dass der zufällige dW-Term verschwindet.",
+      "intuition": "Delta ist die lokale Steigung der Optionswertfunktion. Wenn eine Option Delta 0,40 besitzt, bedeutet das nicht, dass sie immer genau 0,40 pro Punkt gewinnt. Es bedeutet: In der unmittelbaren Umgebung des aktuellen Preises verändert sich ihr Wert ungefähr um 0,40, wenn sich das Underlying um einen Punkt bewegt. Delta ist deshalb eine erste-Ordnungs-Näherung.",
       "derivation": [
         "Ito liefert dV mit einem σS V_S dW-Term.",
         "Das Underlying enthält σS dW.",
@@ -6712,7 +6839,7 @@
         "Der Hedge Δ=0,8 erzeugt genau -0,8·σS dW.",
         "Der stochastische Term verschwindet lokal."
       ],
-      "financialMeaning": "Damit wird ein scheinbar riskantes Derivatportfolio lokal deterministisch und kann über No-Arbitrage mit dem risikofreien Zins verknüpft werden.",
+      "financialMeaning": "Delta wird als Hedge Ratio verwendet. Ein Long Call mit Delta 0,40 verhält sich für kleine Bewegungen ungefähr wie 0,40 Einheiten des Underlyings. Weil Delta selbst veränderlich ist, muss ein Delta-Hedge laufend angepasst werden.",
       "pythonExample": "print('Choose delta = dV/dS to cancel the dW term')",
       "question": "Warum ist gerade Delta die richtige Hedgegröße?",
       "answer": "Weil Delta der Koeffizient ist, mit dem das Underlying die erste Preisbewegung des Derivats repliziert.",
@@ -6720,7 +6847,8 @@
         "L07-015",
         "L10-013"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-017",
@@ -6756,20 +6884,15 @@
           "meaning": "Spotpreis"
         }
       ],
-      "intuition": "Die PDE ist keine zusätzliche magische Formel. Sie entsteht aus Ito + Delta-Hedge + No-Arbitrage.",
-      "derivation": [
-        "Wende Ito auf V(S,t) an.",
-        "Hedge mit Δ=V_S.",
-        "Der dW-Term verschwindet.",
-        "Das verbleibende lokale sichere Portfolio muss zum risikofreien Zins wachsen."
-      ],
+      "intuition": "Black-Scholes ist kein Preisrezept, das aus dem Nichts kommt. Es ist das Ergebnis einer Modellkette: Das Underlying wird als Geometric Brownian Motion modelliert; Ito's Lemma liefert die Dynamik des Derivats; ein Delta-Hedge entfernt den zufälligen Term; No-Arbitrage zwingt das verbleibende Portfolio auf den risikofreien Zinssatz. Daraus entsteht die Black-Scholes-PDE, deren Lösung die bekannte Preisformel ist.",
+      "derivation": "Aus dS=μSdt+σSdW und Ito folgt dV=(V_t+μSV_S+½σ²S²V_SS)dt+σSV_SdW. Mit Δ=V_S wird der dW-Term durch das Underlying-Hedge eliminiert. Für ein self-financing Portfolio muss der sichere Rest zum Zins r wachsen. Daraus folgt V_t+½σ²S²V_SS+rSV_S-rV=0. Mit der Call-Endbedingung V(S,T)=max(S-K,0) erhält man die Black-Scholes-Lösung.",
       "workedExample": [
         "Aus Ito: dV=(V_t+½σ²S²V_SS)dt+V_SσS dW.",
         "Hedge mit V_S dS entfernt den dW-Term.",
         "No-Arbitrage setzt verbleibenden Drift gleich r(V-SV_S).",
         "Umstellen liefert die PDE."
       ],
-      "financialMeaning": "Diese Gleichung verbindet Optionsbewertung, Differentialrechnung, Stochastik und No-Arbitrage in einer einzigen Struktur.",
+      "financialMeaning": "Black-Scholes ist heute weniger ein perfektes Marktmodell als ein Referenzrahmen. Der reale Optionsmarkt zeigt Smile, Skew und zeitabhängige Volatilität. Trotzdem sind die Struktur und die Greeks aus diesem Modell extrem wichtig.",
       "pythonExample": "print('Black-Scholes PDE: V_t + .5*sigma**2*S**2*V_SS + r*S*V_S - r*V = 0')",
       "question": "Welche drei Bausteine erzeugen die PDE?",
       "answer": "Ito's Lemma liefert die Dynamik, Delta-Hedging eliminiert den Zufallsterm und No-Arbitrage bestimmt den verbleibenden Drift.",
@@ -6778,7 +6901,8 @@
         "L10-016",
         "L06-006"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-018",
@@ -6825,7 +6949,8 @@
         "L09-016",
         "L10-017"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-019",
@@ -6857,7 +6982,7 @@
           "meaning": "risikofreier Zins"
         }
       ],
-      "intuition": "Feynman-Kac erklärt, warum eine Differentialgleichung und ein diskontierter Erwartungswert dieselbe Bewertung beschreiben können.",
+      "intuition": "Feynman-Kac verbindet zwei scheinbar unterschiedliche Arten, ein Derivat zu beschreiben: eine partielle Differentialgleichung und einen diskontierten Erwartungswert. Die PDE beschreibt die lokale Dynamik; der Erwartungswert beschreibt die gesamte zukünftige Auszahlung unter dem risikoneutralen Maß. Unter geeigneten Voraussetzungen sind beide Darstellungen äquivalent.",
       "derivation": [
         "Spezifiziere die SDE unter Q.",
         "Definiere die Terminalbedingung V(S,T)=Payoff(S).",
@@ -6870,7 +6995,7 @@
         "Berechne die durchschnittliche Auszahlung und diskontiere sie mit e^{-rT}.",
         "Das ergibt eine Monte-Carlo-Schätzung des Optionswerts."
       ],
-      "financialMeaning": "Feynman-Kac ist die Brücke zwischen analytischer PDE-Bewertung und Monte-Carlo-Pricing.",
+      "financialMeaning": "Diese Verbindung erklärt, warum Monte-Carlo-Verfahren für viele Derivate so natürlich sind: Wenn eine geschlossene PDE-Lösung schwer ist, kann man den entsprechenden Erwartungswert simulieren.",
       "pythonExample": "import numpy as np\nS0=100; r=.05; sigma=.2; T=1; K=100; n=200000\nz=np.random.randn(n)\nST=S0*np.exp((r-.5*sigma**2)*T+sigma*np.sqrt(T)*z)\nprice=np.exp(-r*T)*np.mean(np.maximum(ST-K,0))\nprint(price)",
       "question": "Warum ist Monte Carlo eine natürliche Umsetzung von Feynman-Kac?",
       "answer": "Weil die Bewertung als Erwartungswert formuliert ist und ein Erwartungswert direkt durch Stichproben approximiert werden kann.",
@@ -6878,7 +7003,8 @@
         "L10-018",
         "L11-001"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-020",
@@ -6921,7 +7047,8 @@
         "L09-003",
         "L10-013"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L10-021",
@@ -6949,19 +7076,14 @@
           "meaning": "Bond-/Cash-Position"
         }
       ],
-      "intuition": "Black-Scholes kann als Frage formuliert werden: Welche dynamische Kombination aus Underlying und Bond erzeugt denselben lokalen Cashflow wie die Option?",
-      "derivation": [
-        "Bestimme Δ=V_S.",
-        "Bestimme B=V-ΔS.",
-        "Passe Δ dynamisch an.",
-        "No-Arbitrage verlangt, dass die replizierende Strategie denselben Preis wie das Derivat besitzt."
-      ],
+      "intuition": "Black-Scholes ist kein Preisrezept, das aus dem Nichts kommt. Es ist das Ergebnis einer Modellkette: Das Underlying wird als Geometric Brownian Motion modelliert; Ito's Lemma liefert die Dynamik des Derivats; ein Delta-Hedge entfernt den zufälligen Term; No-Arbitrage zwingt das verbleibende Portfolio auf den risikofreien Zinssatz. Daraus entsteht die Black-Scholes-PDE, deren Lösung die bekannte Preisformel ist.",
+      "derivation": "Aus dS=μSdt+σSdW und Ito folgt dV=(V_t+μSV_S+½σ²S²V_SS)dt+σSV_SdW. Mit Δ=V_S wird der dW-Term durch das Underlying-Hedge eliminiert. Für ein self-financing Portfolio muss der sichere Rest zum Zins r wachsen. Daraus folgt V_t+½σ²S²V_SS+rSV_S-rV=0. Mit der Call-Endbedingung V(S,T)=max(S-K,0) erhält man die Black-Scholes-Lösung.",
       "workedExample": [
         "V=12, S=100, Δ=0,55.",
         "B=12-0,55·100=-43.",
         "Das bedeutet: 55 Einheiten Underlying finanziert durch eine negative Cash-/Bondposition in dieser Skalierung."
       ],
-      "financialMeaning": "Die Replikationsidee erklärt, warum Optionspreise nicht primär aus subjektiven Prognosen entstehen, sondern aus No-Arbitrage und handelbaren Hedges.",
+      "financialMeaning": "Black-Scholes ist heute weniger ein perfektes Marktmodell als ein Referenzrahmen. Der reale Optionsmarkt zeigt Smile, Skew und zeitabhängige Volatilität. Trotzdem sind die Struktur und die Greeks aus diesem Modell extrem wichtig.",
       "pythonExample": "V=12; S=100; delta=.55\nprint(V-delta*S)",
       "question": "Was ist der zentrale Gedanke hinter 'replication'?",
       "answer": "Wenn ein handelbares Portfolio dieselben zukünftigen Cashflows erzeugt, müssen beide heute denselben arbitragefreien Preis haben.",
@@ -6969,7 +7091,8 @@
         "L06-006",
         "L10-016"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-001",
@@ -7011,7 +7134,8 @@
       "prerequisites": [
         "L10-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-002",
@@ -7049,7 +7173,8 @@
       "prerequisites": [
         "L11-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-003",
@@ -7087,7 +7212,8 @@
       "prerequisites": [
         "L11-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-004",
@@ -7129,7 +7255,8 @@
       "prerequisites": [
         "L11-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-005",
@@ -7171,7 +7298,8 @@
       "prerequisites": [
         "L11-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-006",
@@ -7221,7 +7349,8 @@
       "prerequisites": [
         "L11-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-007",
@@ -7263,7 +7392,8 @@
       "prerequisites": [
         "L11-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-008",
@@ -7305,7 +7435,8 @@
       "prerequisites": [
         "L11-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-009",
@@ -7329,7 +7460,7 @@
           "meaning": "h Schrittweite."
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Numerik wird nötig, sobald eine Formel nicht geschlossen lösbar ist oder reale Modelle zu komplex werden.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -7340,14 +7471,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Numerische Verfahren machen Modelle berechenbar, wenn geschlossene Lösungen fehlen oder zu teuer sind.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "question": "Kannst du Finite-Difference-Gamma ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nY=np.random.normal(size=10000); print(Y.mean(),Y.std(ddof=1)/np.sqrt(len(Y)))",
       "prerequisites": [
         "L11-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-010",
@@ -7389,7 +7521,8 @@
       "prerequisites": [
         "L11-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-011",
@@ -7439,7 +7572,8 @@
       "prerequisites": [
         "L11-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L11-012",
@@ -7485,7 +7619,8 @@
       "prerequisites": [
         "L11-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-001",
@@ -7523,7 +7658,8 @@
       "prerequisites": [
         "L11-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-002",
@@ -7561,7 +7697,8 @@
       "prerequisites": [
         "L12-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-003",
@@ -7603,7 +7740,8 @@
       "prerequisites": [
         "L12-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-004",
@@ -7645,7 +7783,8 @@
       "prerequisites": [
         "L12-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-005",
@@ -7687,7 +7826,8 @@
       "prerequisites": [
         "L12-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-006",
@@ -7725,7 +7865,8 @@
       "prerequisites": [
         "L12-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-007",
@@ -7767,7 +7908,8 @@
       "prerequisites": [
         "L12-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-008",
@@ -7809,7 +7951,8 @@
       "prerequisites": [
         "L12-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-009",
@@ -7851,7 +7994,8 @@
       "prerequisites": [
         "L12-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-010",
@@ -7889,7 +8033,8 @@
       "prerequisites": [
         "L12-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-011",
@@ -7927,7 +8072,8 @@
       "prerequisites": [
         "L12-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L12-012",
@@ -7969,7 +8115,8 @@
       "prerequisites": [
         "L12-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-001",
@@ -8011,7 +8158,8 @@
       "prerequisites": [
         "L12-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-002",
@@ -8049,7 +8197,8 @@
       "prerequisites": [
         "L13-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-003",
@@ -8091,7 +8240,8 @@
       "prerequisites": [
         "L13-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-004",
@@ -8133,7 +8283,8 @@
       "prerequisites": [
         "L13-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-005",
@@ -8171,7 +8322,8 @@
       "prerequisites": [
         "L13-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-006",
@@ -8213,7 +8365,8 @@
       "prerequisites": [
         "L13-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-007",
@@ -8255,7 +8408,8 @@
       "prerequisites": [
         "L13-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-008",
@@ -8293,7 +8447,8 @@
       "prerequisites": [
         "L13-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-009",
@@ -8331,7 +8486,8 @@
       "prerequisites": [
         "L13-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-010",
@@ -8365,7 +8521,8 @@
       "prerequisites": [
         "L13-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-011",
@@ -8407,7 +8564,8 @@
       "prerequisites": [
         "L13-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L13-012",
@@ -8449,7 +8607,8 @@
       "prerequisites": [
         "L13-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-001",
@@ -8487,7 +8646,8 @@
       "prerequisites": [
         "L13-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-002",
@@ -8529,7 +8689,8 @@
       "prerequisites": [
         "L14-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-003",
@@ -8571,7 +8732,8 @@
       "prerequisites": [
         "L14-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-004",
@@ -8609,7 +8771,8 @@
       "prerequisites": [
         "L14-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-005",
@@ -8643,7 +8806,8 @@
       "prerequisites": [
         "L14-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-006",
@@ -8685,7 +8849,8 @@
       "prerequisites": [
         "L14-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-007",
@@ -8731,7 +8896,8 @@
       "prerequisites": [
         "L14-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-008",
@@ -8777,7 +8943,8 @@
       "prerequisites": [
         "L14-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-009",
@@ -8823,7 +8990,8 @@
       "prerequisites": [
         "L14-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-010",
@@ -8857,7 +9025,8 @@
       "prerequisites": [
         "L14-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-011",
@@ -8895,7 +9064,8 @@
       "prerequisites": [
         "L14-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L14-012",
@@ -8929,7 +9099,8 @@
       "prerequisites": [
         "L14-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-001",
@@ -8967,7 +9138,8 @@
       "prerequisites": [
         "L14-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-002",
@@ -9009,7 +9181,8 @@
       "prerequisites": [
         "L15-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-003",
@@ -9051,7 +9224,8 @@
       "prerequisites": [
         "L15-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-004",
@@ -9093,7 +9267,8 @@
       "prerequisites": [
         "L15-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-005",
@@ -9135,7 +9310,8 @@
       "prerequisites": [
         "L15-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-006",
@@ -9177,7 +9353,8 @@
       "prerequisites": [
         "L15-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-007",
@@ -9215,7 +9392,8 @@
       "prerequisites": [
         "L15-006"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-008",
@@ -9253,7 +9431,8 @@
       "prerequisites": [
         "L15-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-009",
@@ -9291,7 +9470,8 @@
       "prerequisites": [
         "L15-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-010",
@@ -9329,7 +9509,8 @@
       "prerequisites": [
         "L15-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-011",
@@ -9367,7 +9548,8 @@
       "prerequisites": [
         "L15-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L15-012",
@@ -9409,7 +9591,8 @@
       "prerequisites": [
         "L15-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-001",
@@ -9447,7 +9630,8 @@
       "prerequisites": [
         "L15-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-002",
@@ -9485,7 +9669,8 @@
       "prerequisites": [
         "L16-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-003",
@@ -9535,7 +9720,8 @@
       "prerequisites": [
         "L16-002"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-004",
@@ -9581,7 +9767,8 @@
       "prerequisites": [
         "L16-003"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-005",
@@ -9631,7 +9818,8 @@
       "prerequisites": [
         "L16-004"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-006",
@@ -9673,7 +9861,8 @@
       "prerequisites": [
         "L16-005"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-007",
@@ -9693,7 +9882,7 @@
           "meaning": "die in der Formel verwendete Größe"
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Advanced Quant Finance setzt die Grundlagen zusammen und behandelt Oberflächen, stochastische Volatilität und nichtlineares Risiko.",
+      "intuition": "Vanna ist eine Cross-Greek: Sie beschreibt, wie sich Delta verändert, wenn sich die Volatilität verändert. Das ist etwas anderes als Vega. Vega fragt: 'Wie verändert sich der Optionswert bei einer IV-Änderung?' Vanna fragt: 'Wie verändert sich die Hedge-Sensitivität Delta bei einer IV-Änderung?' Damit verbindet Vanna Volatilitätsbewegungen direkt mit potenziellen Hedge-Anpassungen.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -9704,7 +9893,7 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Nichtlinearität, Volatilitätsoberflächen, höhere Greeks und Modellkalibrierung werden wichtig, sobald einfache Annahmen nicht mehr reichen.",
+      "financialMeaning": "Vanna wird relevant, wenn Spot und Volatilität gemeinsam laufen. Gerade bei Indexoptionen kann ein IV-Rückgang oder -Anstieg das Delta eines großen Optionsbuchs verändern und dadurch zusätzliche Hedge-Flows erzeugen.",
       "question": "Kannst du Vanna ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nDelta,Gamma,dS,Vega,dvol=.5,.002,10,.2,.03\nprint(Delta*dS+.5*Gamma*dS**2+Vega*dvol)",
@@ -9712,7 +9901,8 @@
         "L07-007",
         "L16-001"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-008",
@@ -9732,7 +9922,7 @@
           "meaning": "die in der Formel verwendete Größe"
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Advanced Quant Finance setzt die Grundlagen zusammen und behandelt Oberflächen, stochastische Volatilität und nichtlineares Risiko.",
+      "intuition": "Charm misst die Veränderung von Delta durch den Zeitablauf. Selbst wenn der Spotpreis exakt stehen bleibt, verändert sich die Wahrscheinlichkeit verschiedener Verfallsausgänge, weil ein Teil der Restlaufzeit verschwindet. Dadurch verändert sich Delta. Charm macht sichtbar, dass ein Dealer auch ohne neue Spotbewegung seine Hedgeposition anpassen muss.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -9743,7 +9933,7 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Nichtlinearität, Volatilitätsoberflächen, höhere Greeks und Modellkalibrierung werden wichtig, sobald einfache Annahmen nicht mehr reichen.",
+      "financialMeaning": "Charm ist bei sehr kurzfristigen Optionen besonders relevant. Bei 0DTE kann sich Delta allein durch das Verstreichen von Minuten oder Stunden deutlich verändern. Wer GEX nur als statische Momentaufnahme betrachtet, kann solche Zeitflüsse übersehen.",
       "question": "Kannst du Charm ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nDelta,Gamma,dS,Vega,dvol=.5,.002,10,.2,.03\nprint(Delta*dS+.5*Gamma*dS**2+Vega*dvol)",
@@ -9751,7 +9941,8 @@
         "L07-007",
         "L16-007"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-009",
@@ -9789,7 +9980,8 @@
       "prerequisites": [
         "L16-008"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-010",
@@ -9831,7 +10023,8 @@
       "prerequisites": [
         "L16-009"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-011",
@@ -9885,7 +10078,8 @@
       "prerequisites": [
         "L16-010"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-012",
@@ -9909,7 +10103,7 @@
           "meaning": "die in der Formel verwendete Größe"
         }
       ],
-      "intuition": "Verstehe zuerst die Bedeutung, nicht das Einsetzen. Advanced Quant Finance setzt die Grundlagen zusammen und behandelt Oberflächen, stochastische Volatilität und nichtlineares Risiko.",
+      "intuition": "Das risikoneutrale Maß ist eine Bewertungswelt, in der diskontierte Preise handelbarer Assets Martingale sind. Man ersetzt nicht deshalb die reale erwartete Rendite durch r, weil Anleger tatsächlich risikoneutral wären. Stattdessen verändert man das Wahrscheinlichkeitsmaß so, dass No-Arbitrage-Bewertung als Erwartungswert formuliert werden kann.",
       "derivation": [
         "Identifiziere zuerst die Größen in der Definition.",
         "Setze die Definition in kleine algebraische Schritte um.",
@@ -9920,14 +10114,15 @@
         "Setze die Größen nacheinander ein und prüfe am Ende die Einheit und die Größenordnung.",
         "Entscheidend ist nicht das Einsetzen allein, sondern ob das Ergebnis zur Definition der Größe passt."
       ],
-      "financialMeaning": "Nichtlinearität, Volatilitätsoberflächen, höhere Greeks und Modellkalibrierung werden wichtig, sobald einfache Annahmen nicht mehr reichen.",
+      "financialMeaning": "Unter dem risikoneutralen Maß kann ein Derivat als diskontierter Erwartungswert seines zukünftigen Payoffs bewertet werden. Das macht die Preisfindung unabhängig von einer direkten Schätzung der historischen Risikoprämie.",
       "question": "Kannst du Risk-Neutral Calibration ohne Blick auf die Formel erklären und anschließend die Formel mit einem eigenen kleinen Zahlenbeispiel anwenden?",
       "answer": "Eine gute Antwort nennt zuerst die Bedeutung der Größe, erklärt dann die Abhängigkeiten und zeigt anschließend einen vollständigen Rechenweg. Prüfe zum Schluss Vorzeichen, Einheit und Größenordnung.",
       "pythonExample": "import numpy as np\nDelta,Gamma,dS,Vega,dvol=.5,.002,10,.2,.03\nprint(Delta*dS+.5*Gamma*dS**2+Vega*dvol)",
       "prerequisites": [
         "L16-011"
       ],
-      "variant": "deep-curated"
+      "variant": "deep-curated",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-013",
@@ -9951,7 +10146,7 @@
           "meaning": "Restlaufzeit"
         }
       ],
-      "intuition": "Im echten Optionsmarkt gibt es nicht eine einzige Volatilität. IV hängt typischerweise von Strike und Laufzeit ab. Diese Fläche ist die Volatility Surface.",
+      "intuition": "Eine einzelne implizite Volatilität kann den Optionsmarkt nicht vollständig beschreiben. Optionen mit verschiedenen Strikes und Laufzeiten handeln zu unterschiedlichen IVs. Ordnet man diese Werte nach K und T an, entsteht eine Volatility Surface. Smile und Skew sind Formen dieser Fläche, keine separaten Märkte.",
       "derivation": [
         "Für jede Option löse die implizite Volatilität aus dem Marktpreis.",
         "Ordne die Werte nach Strike und Laufzeit.",
@@ -9963,7 +10158,7 @@
         "ATM 3M: 19%.",
         "Damit ist bereits sichtbar, dass IV sowohl über Strike als auch über Laufzeit variiert."
       ],
-      "financialMeaning": "GEX, Vanna und Charm hängen von lokalen Greeks ab; diese wiederum hängen von der verwendeten Volatility Surface ab.",
+      "financialMeaning": "Für ein reales Optionsbuch ist die Surface entscheidend, weil unterschiedliche Strikes unterschiedliche Greeks besitzen. GEX, Vanna und Charm können deshalb stark davon abhängen, wie die lokale IV-Struktur modelliert wird.",
       "pythonExample": "surface={(1,.5):.18,(.9,.5):.22,(1,1):.19}\nprint(surface)",
       "question": "Warum ist eine einzelne ATM-IV für ein Optionsbuch nicht ausreichend?",
       "answer": "Weil unterschiedliche Strikes und Laufzeiten unterschiedliche implizite Volatilitäten und damit unterschiedliche Greeks haben.",
@@ -9971,7 +10166,8 @@
         "L07-027",
         "L16-001"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-014",
@@ -10014,7 +10210,8 @@
         "L16-001",
         "L07-027"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-015",
@@ -10038,7 +10235,7 @@
           "meaning": "Volatilität"
         }
       ],
-      "intuition": "Vega ist die erste Volatilitätssensitivität. Volga misst, wie stark sich Vega selbst verändert, wenn sich IV bewegt.",
+      "intuition": "Vega misst die Sensitivität des Optionswerts gegenüber der impliziten Volatilität. Das ist wichtig, weil der Marktpreis einer Option nicht nur auf Spot reagiert. Wenn die erwartete Unsicherheit zunimmt, werden mögliche zukünftige Auszahlungen wertvoller, insbesondere bei Optionen mit noch viel Zeit.",
       "derivation": [
         "Leite V einmal nach σ ab → Vega.",
         "Leite Vega erneut nach σ ab → Volga.",
@@ -10049,7 +10246,7 @@
         "Vega-Beitrag≈0,20·0,02=0,004.",
         "Zweiter Ordnungsterm≈0,5·0,50·0,0004=0,0001."
       ],
-      "financialMeaning": "Volga ist nützlich für nichtlineare Vol-Risiken und die Analyse größerer IV-Schocks.",
+      "financialMeaning": "Ein Optionsbuch kann bei nahezu unverändertem Spot stark an Wert gewinnen oder verlieren, wenn sich die implizite Volatilität verändert. Deshalb ist ein delta-neutrales Buch nicht automatisch risiko-neutral.",
       "pythonExample": "vega=.20; volga=.50; ds=.02\nprint(vega*ds + .5*volga*ds**2)",
       "question": "Wann reicht Vega allein nicht mehr?",
       "answer": "Wenn die Volatilitätsänderung groß genug ist, dass die Änderung von Vega selbst relevant wird.",
@@ -10057,7 +10254,8 @@
         "L07-021",
         "L07-017"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-016",
@@ -10097,7 +10295,7 @@
           "meaning": "Zeitänderung"
         }
       ],
-      "intuition": "Diese Formel ist eine besonders nützliche Denkbrücke: Delta kann sich aus mehreren Ursachen bewegen, nicht nur aus Spot.",
+      "intuition": "Gamma misst, wie schnell sich Delta verändert. Eine Option mit Delta 0,50 und Gamma 0,02 hat nach einem kleinen Anstieg des Underlyings näherungsweise Delta 0,52. Gamma ist deshalb die Krümmung der Optionswertfunktion: Delta ist die Steigung, Gamma beschreibt, wie sich diese Steigung verändert. Ohne Gamma wäre eine lineare Delta-Näherung dauerhaft ausreichend; gerade weil Optionen nichtlinear sind, ist sie es nicht.",
       "derivation": [
         "Betrachte Δ als Funktion Δ(S,σ,t).",
         "Taylor-Entwicklung erster Ordnung liefert drei partielle Ableitungen.",
@@ -10109,7 +10307,7 @@
         "Charm=-0,03 pro Tag, dt=1 → -0,03.",
         "Gesamt dΔ≈0,08."
       ],
-      "financialMeaning": "Das ist die mathematische Grundlage, um Dealer-Hedge-Änderungen bei 0DTE nicht nur über GEX zu betrachten.",
+      "financialMeaning": "Gamma ist für Hedging zentral. Ein Dealer, der Delta-neutral sein möchte, muss bei einer Spotbewegung seine Hedgeposition ändern. Je größer das Gamma, desto schneller verändert sich der benötigte Hedge. Aggregiert über viele Kontrakte entsteht daraus Gamma Exposure – die Grundlage von GEX-Analysen.",
       "pythonExample": "gamma=.02; dS=5; vanna=.5; dsigma=.02; charm=-.03; dt=1\nprint(gamma*dS+vanna*dsigma+charm*dt)",
       "question": "Warum ist diese Zerlegung für 0DTE besonders wichtig?",
       "answer": "Weil bei kurzer Laufzeit Zeit- und Volatilitätseffekte auf Delta relativ groß werden können.",
@@ -10118,7 +10316,8 @@
         "L08-019",
         "L08-020"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-017",
@@ -10161,7 +10360,8 @@
         "L11-001",
         "L04-010"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-018",
@@ -10201,7 +10401,8 @@
         "L11-001",
         "L16-017"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-019",
@@ -10256,7 +10457,8 @@
         "L09-018",
         "L16-013"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-020",
@@ -10304,7 +10506,8 @@
         "L11-007",
         "L14-003"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-021",
@@ -10351,7 +10554,8 @@
         "L11-005",
         "L07-015"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     },
     {
       "id": "L16-022",
@@ -10395,7 +10599,7 @@
           "meaning": "Zeitablauf"
         }
       ],
-      "intuition": "Stress Testing fragt nicht: 'Was ist die wahrscheinlichste Bewegung?', sondern: 'Was passiert mit meinem Buch, wenn ein definierter Schock eintritt?'",
+      "intuition": "Eine Option ist ein Vertrag, dessen Auszahlung vom Wert eines Basiswerts abhängt. Ein Call gibt dem Käufer das Recht, aber nicht die Pflicht, den Basiswert zu einem festgelegten Strike K zu kaufen; ein Put gibt das entsprechende Recht zu verkaufen. Für den Käufer ist die gezahlte Prämie der Preis dieses Rechts. Entscheidend ist: Der Optionswert entsteht nicht erst am Verfall. Schon heute ist das Recht wertvoll, weil bis zum Verfall viele mögliche Preiswege existieren und einige davon zu einer hohen Auszahlung führen können. Genau diese Unsicherheit ist später der Grund, warum Volatilität ein zentraler Input der Optionsbewertung ist.",
       "derivation": [
         "Wähle Spot-, Vol- und Zeit-Schocks.",
         "Berechne die lokale P&L-Zerlegung.",
@@ -10408,7 +10612,7 @@
         "Gamma-Beitrag=0,5·0,04·2500=50.",
         "Netto aus diesen beiden=40 vor Vega/Theta."
       ],
-      "financialMeaning": "Die nichtlineare Gamma-Komponente kann große Bewegungen völlig anders bewerten als ein reines Delta-Modell.",
+      "financialMeaning": "Im Trading ist eine Option ein nichtlineares Instrument: Kleine Bewegungen des Underlyings können je nach Moneyness und Restlaufzeit sehr unterschiedliche Auswirkungen auf den Optionswert haben. Deshalb reichen einfache Long/Short-Betrachtungen nicht aus; Greeks beschreiben die lokalen Sensitivitäten.",
       "pythonExample": "delta=.2; gamma=.04; dS=-50\nprint(delta*dS + .5*gamma*dS**2)",
       "question": "Warum kann ein delta-neutrales Buch bei einem großen Move trotzdem stark gewinnen oder verlieren?",
       "answer": "Weil Delta nur erste Ordnung ist; Gamma erzeugt eine quadratische P&L-Komponente und andere Greeks reagieren ebenfalls.",
@@ -10416,7 +10620,8 @@
         "L07-017",
         "L07-024"
       ],
-      "variant": "deep-curated-v5"
+      "variant": "deep-curated-v5",
+      "teachingStyle": "Lehrbuch-Erklärung: Bedeutung → mathematische Struktur → konkretes Beispiel → Anwendung → typischer Denkfehler"
     }
   ]
 }

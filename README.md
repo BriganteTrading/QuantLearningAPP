@@ -1,4 +1,4 @@
-# Quant Math 5.0 — Deep Focused
+# Quant Math 6.0 — Deep Focused
 
 Ein didaktisch aufgebauter Quant-Mathematik-Kurs mit Schwerpunkt auf:
 
@@ -60,3 +60,7 @@ Für GitHub Pages:
 - Source: GitHub Actions
 
 Die App funktioniert ohne externe CDN-Abhängigkeit und speichert Fortschritt lokal.
+
+
+## Version 6.0 – Lehrbuchniveau
+Die Kernbegriffe wurden auf ausführliche, kontextbezogene Erklärungen umgestellt. Begriffe werden nicht nur definiert, sondern in Motivation, Mathematik, Anwendung und typische Fehlinterpretationen eingebettet.
