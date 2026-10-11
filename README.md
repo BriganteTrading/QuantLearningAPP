@@ -38,16 +38,9 @@ Ito-Integral → Ito-Lemma → ln(S) → Self-Financing → Delta-Hedge → Blac
 **Advanced**
 Vol Surface → Skew → Volga → Gamma/Vanna/Charm → Monte Carlo Error → Varianzreduktion → Heston → Kalibrierung → numerische Greeks → Stress Tests
 
-Jede Lektion enthält:
-- Intuition
-- Formel
-- vollständige Symbolerklärung
-- Herleitung
-- konkretes Zahlenbeispiel
-- finanzielle Bedeutung
-- Python-Verifikation
-- Verständnisfrage
-- Voraussetzungen
+Der Lernpfad einer Lektion führt – soweit Inhalte hinterlegt sind – von einer themenspezifischen Kernidee über Formel und Symbolerklärung zu einem mathematischen Prüfpfad, einem schrittweisen Beispiel und dem Finanzbezug. Die individuellen Kernideen sind nach Lektionen-ID in [src/core-ideas.js](./src/core-ideas.js) gepflegt und werden beim Laden auf Vollständigkeit geprüft. Ein aktiver Selbsttest lädt dazu ein, die Idee erst selbst zu erklären und anschließend Bedeutung, Symbole und Plausibilität anhand von Kriterien zu prüfen. Voraussetzungen sind direkt aus der Lektion erreichbar und zeigen den Bearbeitungsstatus.
+
+Die Selbstkontrolle bewertet Antworten nicht automatisch. Beispiele und Erklärungen unterscheiden sich je nach Thema in ihrer Tiefe; ein Python-Ergebnis ersetzt weder eine Herleitung noch die Prüfung der Modellannahmen.
 
 ## Start
 
@@ -62,5 +55,5 @@ Für GitHub Pages:
 Die App funktioniert ohne externe CDN-Abhängigkeit und speichert Fortschritt lokal.
 
 
-## Version 6.0 – Lehrbuchniveau
-Die Kernbegriffe wurden auf ausführliche, kontextbezogene Erklärungen umgestellt. Begriffe werden nicht nur definiert, sondern in Motivation, Mathematik, Anwendung und typische Fehlinterpretationen eingebettet.
+## Individuelle Kernideen
+Jede der 244 Lektionen hat eine eigene, an ihrem Thema und ihrer Formel ausgerichtete Kernerklärung. Sie grenzt den Begriff ab, benennt relevante Bedingungen oder Konventionen und ordnet die Aussage ein. Die Kernideen sind als eigener Datensatz nach Lektionen-ID gepflegt; fehlt eine Erklärung, zeigt die App einen sichtbaren Ladefehler statt still auf allgemeine Platzhalter zurückzufallen.

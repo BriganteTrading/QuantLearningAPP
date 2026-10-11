@@ -111,5 +111,46 @@ table{
   }
 }
 @supports (-webkit-touch-callout:none){
-  input,textarea,select,button{font-size:16px}
+  input,textarea,select{font-size:16px}
+}
+@media(max-width:620px){
+  .top{
+    height:auto;
+    min-height:calc(60px + env(safe-area-inset-top));
+    padding-top:env(safe-area-inset-top);
+    gap:8px;
+  }
+  .brand,.icon-btn,.back,.primary,.secondary{min-height:44px}
+  .brand span:last-child,.icon-btn{white-space:nowrap}
+  .icon-btn{padding-right:7px;padding-left:7px}
+  .page{padding-bottom:calc(65px + env(safe-area-inset-bottom))}
+  .lesson-list{scroll-snap-type:x proximity}
+  .lesson-link{min-height:44px;scroll-snap-align:start}
+}
+.lesson-intro{
+  margin:18px 0 24px;
+  padding:16px 18px;
+  border-left:3px solid #67e4ff;
+  border-radius:0 12px 12px 0;
+  background:linear-gradient(100deg,#102338,#0b1725);
+}
+.lesson-intro .eyebrow{display:block;margin-bottom:6px}
+.lesson-intro .markdown p:last-child{margin-bottom:0}
+.lesson .block-kicker{letter-spacing:.12em}
+.learning-steps{margin:8px 0 14px;padding-left:28px}
+.learning-steps>li{padding:7px 0 7px 6px;color:#aab8c7}
+.learning-steps>li::marker{color:#6fe2fa;font-weight:800}
+.learning-steps>li>p:last-child{margin-bottom:0}
+.retrieval-card>p{color:#aab8c7}
+.retrieval-card textarea{width:100%;min-height:120px;resize:vertical;padding:14px;border-radius:10px;background:#09131f;border:1px solid #2a4059;color:#edf4fb;outline:none}
+.retrieval-card textarea:focus{border-color:#67cce4;box-shadow:0 0 0 3px #67e4ff20}
+.retrieval-card details ul{padding-left:22px}
+.retrieval-card details li{margin:7px 0}
+.prereq-list{display:grid;gap:8px;margin-top:10px}
+.prereq-link{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;padding:10px 12px;text-align:left;background:#0b1725;border:1px solid #24374c;border-radius:9px;color:#dce8f4}
+.prereq-link:hover{border-color:#4e718e}
+.prereq-link>span:last-child{white-space:nowrap;font-size:11px}
+.prereq-pending,.prereq-missing{color:#e2bd7c}
+@media(max-width:620px){
+  .prereq-link{align-items:flex-start;flex-direction:column;gap:4px}
 }

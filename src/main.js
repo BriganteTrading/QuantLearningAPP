@@ -9,6 +9,10 @@ function escapeHtml(value){
 
 function lessonRichText(value){
   if(value==null) return "";
+  if(Array.isArray(value)){
+    const items=value.map(item=>String(item??"").trim()).filter(Boolean);
+    return items.length?`<ol class="learning-steps">${items.map(item=>`<li>${lessonRichText(item)}</li>`).join("")}</ol>`:"";
+  }
   let s=String(value).replace(/\r\n?/g,"\n");
   // Decode the exact escaped Markdown representation seen in the app.
   s=s.replace(/\\([\\`*_[\]{}()#+.!|>~-])/g,"$1");
@@ -214,6 +218,44 @@ function renderInline(value){
   const value = c.workedExample ?? c.example ?? "";
   return `<div class="markdown">${lessonRichText(value)}</div>`;
 }
+  function lessonIntro(c){
+    const text=String(c.intuition||"");
+    const motivation=text.match(/(?:^|\n)###\s*Warum brauchen wir das\?\s*\n([\s\S]*)/i);
+    const idea=motivation?text.slice(0,motivation.index).trim():text;
+    return {
+      idea:idea.replace(/^###\s*Was ist das\?\s*\n/i,"").trim(),
+      motivation:lessonBody(motivation?motivation[1]:"")
+    };
+  }
+  function lessonBody(value){
+    return String(value??"").replace(/^\s*#{1,6}\s+[^\n]+\n*/,"").trim();
+  }
+  function hasContent(value){
+    return Array.isArray(value)
+      ? value.some(item=>String(item??"").trim())
+      : value!=null&&String(value).trim().length>0;
+  }
+  function lessonSections(c,motivation){
+    const sections=[
+      {label:"Motivation",title:"Warum ist das wichtig?",value:motivation,render:value=>`<div class="markdown">${lessonRichText(value)}</div>`},
+      {label:"Notation",title:"Symbole verstehen",value:c.variables,render:()=>`<div class="symbols">${symbols(c)}</div>`},
+      {label:"Arbeitsweise",title:"Mathematischer Prüfpfad",value:lessonBody(c.derivation),render:bullets},
+      {label:"Beispiel",title:"Beispiel zum Nachrechnen",value:c.workedExample??c.example,render:()=>example(c),className:"example"},
+      {label:"Praxisbezug",title:"Bedeutung in der Finanzpraxis",value:lessonBody(c.financialMeaning),render:value=>`<div class="markdown">${lessonRichText(value)}</div>`,className:"meaning"},
+      {label:"Überprüfen",title:"Numerisch gegenprüfen",value:c.pythonExample,render:value=>`<pre>${esc(value)}<\/pre><p class="muted">Prüfe die Rechnung zusätzlich von Hand. Ein passendes Ergebnis bestätigt nicht automatisch die Modellannahmen.</p>`,className:"code-block"}
+    ].filter(section=>hasContent(section.value));
+    return sections.map((section,index)=>`<section class="block ${section.className||""}"><div class="block-kicker">${String(index+1).padStart(2,"0")} · ${section.label.toUpperCase()}</div><h3>${section.title}</h3>${section.render(section.value)}</section>`).join("");
+  }
+  function prerequisiteSection(c){
+    const prerequisites=(c.prerequisites||[]).map(id=>({id,card:state.cards.find(item=>cardId(item)===id)}));
+    if(!prerequisites.length)return `<div class="prereq"><b>Voraussetzungen:</b> Keine speziellen Voraussetzungen.</div>`;
+    return `<div class="prereq"><b>Empfohlene Voraussetzungen:</b><div class="prereq-list">${prerequisites.map(({id,card})=>card
+      ?`<button class="prereq-link" data-action="open-card" data-card="${esc(id)}"><span>${esc(card.title)}</span><span class="${completed(card)?"done":"prereq-pending"}">${completed(card)?"✓ erledigt":"noch offen"}</span></button>`
+      :`<span class="prereq-missing">Voraussetzung ${esc(id)} konnte nicht geladen werden.</span>`).join("")}</div></div>`;
+  }
+  function retrievalPractice(c){
+    return `<section class="practice-card retrieval-card"><span class="eyebrow">AKTIVER ABRUF · ERST SELBST ERKLÄREN</span><h3>Kannst du „${esc(c.title)}“ ohne Vorlage erklären?</h3><p>Schreibe kurz auf, was die Formel beschreibt, wie du ihre Symbole liest und welche Plausibilitätsprüfung du beim Anwenden machen würdest.</p><textarea id="lessonRecall" aria-label="Eigene Erklärung zur Lektion" placeholder="Erkläre den Zusammenhang in deinen eigenen Worten …"></textarea><details><summary>Kriterien zur Selbstkontrolle</summary><ul><li>Habe ich die Bedeutung der Beziehung in eigenen Worten erklärt?</li><li>Kann ich die Symbole und – falls relevant – Einheiten oder Zeitbasis benennen?</li><li>Kann ich einen Rechenschritt nachvollziehen und Vorzeichen, Größenordnung oder Grenzfall prüfen?</li><li>Habe ich Modellannahmen von der reinen Rechnung unterschieden?</li></ul><p class="muted">Das ist eine Selbstkontrolle und keine automatische Bewertung deiner Eingabe.</p></details>${prerequisiteSection(c)}</section>`;
+  }
 
   function shell(content){return `<header class="top"><button class="brand" data-action="home"><span class="brand-dot">Q</span><span>QUANT <b>MATH</b></span></button><div class="top-actions"><button class="icon-btn" data-action="library">Formel-Library</button><button class="icon-btn" data-action="practice">Practice</button></div></header>${content}`}
 
@@ -225,7 +267,8 @@ function renderInline(value){
   function levelView(l){
     if(!l||!l.cards.length)return home();
     const i=Math.min(state.index,l.cards.length-1), c=l.cards[i], done=l.cards.filter(completed).length;
-    return shell(`<main class="page lesson-page"><button class="back" data-action="home">← Alle Kapitel</button><div class="chapter-head"><div><span class="eyebrow">KAPITEL ${String(l.id).padStart(2,'0')}</span><h1>${esc(l.title)}</h1><p>${esc(l.desc)}</p></div><div class="chapter-progress"><b>${done}/${l.cards.length}</b><span>verstanden / erledigt</span></div></div><div class="lesson-layout"><aside class="lesson-nav"><div class="nav-label">LERNSEQUENZ</div><div class="lesson-list">${l.cards.map((x,j)=>`<button class="lesson-link ${j===i?'active':''} ${completed(x)?'is-done':''}" data-action="card" data-index="${j}"><span>${String(j+1).padStart(2,'0')}</span><b>${esc(x.title)}</b></button>`).join('')}</div></aside><article class="lesson"><div class="lesson-meta"><span>${esc(c.topic)}</span><span>·</span><span>${i+1} von ${l.cards.length}</span>${completed(c)?'<span class="done">✓ abgeschlossen</span>':''}</div><h2>${esc(c.title)}</h2><div class="lead markdown">${lessonRichText(c.intuition || "")}</div>${math(c.formula)}<section class="block"><div class="block-kicker">01 · BEGRIFF</div><h3>Was beschreibt diese Formel?</h3><div class="markdown">${lessonRichText(c.intuition || "")}</div></section><section class="block"><div class="block-kicker">02 · WARUM?</div><h3>Warum brauchen wir das?</h3><div class="markdown">${lessonRichText(c.why || "")}</div></section><section class="block"><div class="block-kicker">02 · SYMBOLIK</div><h3>Jedes Symbol einzeln</h3><div class="symbols">${symbols(c)}</div></section><section class="block"><div class="block-kicker">03 · HERLEITUNG</div><h3>Wie kommt man darauf?</h3>${bullets(c.derivation)}</section><section class="block example"><div class="block-kicker">04 · RECHNEN</div><h3>Konkretes Zahlenbeispiel</h3>${example(c)}</section><section class="block mistake"><div class="block-kicker">06 · DENKFEHLER</div><h3>Typischer Denkfehler</h3><div class="markdown">${lessonRichText(c.commonMistake || "")}</div></section><section class="block meaning"><div class="block-kicker">05 · QUANT-INTUITION</div><h3>Was bedeutet das im Markt?</h3><div class="markdown">${lessonRichText(c.financialMeaning || "")}</div></section><section class="block code-block"><div class="block-kicker">07 · VERIFIKATION</div><h3>Mit Python prüfen</h3><pre>${esc(c.pythonExample)}</pre><p class="muted">Python bestätigt hier die Rechnung. Die mathematische Begründung steht bewusst davor.</p></section><section class="practice-card"><span class="eyebrow">08 · PRÜFE DEIN VERSTÄNDNIS</span><h3>${lessonRichText(c.question || "")}</h3><details><summary>Lösung anzeigen</summary><div class="markdown">${lessonRichText(c.answer || "")}</div></details><div class="prereq"><b>Voraussetzungen:</b> ${c.prerequisites?.length?c.prerequisites.map(esc).join(' · '):'Keine speziellen Voraussetzungen.'}</div></section><div class="lesson-actions"><button class="secondary" data-action="prev" ${i<=0?'disabled':''}>← Zurück</button><button class="primary" data-action="complete">${completed(c)?'✓ Erledigt':'Als verstanden markieren'}</button><button class="secondary" data-action="next" ${i>=l.cards.length-1?'disabled':''}>Weiter →</button></div></article></div></main>`)
+    const intro=lessonIntro(c);
+    return shell(`<main class="page lesson-page"><button class="back" data-action="home">← Alle Kapitel</button><div class="chapter-head"><div><span class="eyebrow">KAPITEL ${String(l.id).padStart(2,'0')}</span><h1>${esc(l.title)}</h1><p>${esc(l.desc)}</p></div><div class="chapter-progress"><b>${done}/${l.cards.length}</b><span>verstanden / erledigt</span></div></div><div class="lesson-layout"><aside class="lesson-nav"><div class="nav-label">LERNSEQUENZ</div><div class="lesson-list">${l.cards.map((x,j)=>`<button class="lesson-link ${j===i?'active':''} ${completed(x)?'is-done':''}" data-action="card" data-index="${j}"><span>${String(j+1).padStart(2,'0')}</span><b>${esc(x.title)}</b></button>`).join('')}</div></aside><article class="lesson"><div class="lesson-meta"><span>${esc(c.topic)}</span><span>·</span><span>${i+1} von ${l.cards.length}</span>${completed(c)?'<span class="done">✓ abgeschlossen</span>':''}</div><h2>${esc(c.title)}</h2><div class="lead lesson-intro"><span class="eyebrow">DIE KERNIDEE</span><div class="markdown">${lessonRichText(intro.idea)}</div></div>${math(c.formula)}${lessonSections(c,intro.motivation)}${retrievalPractice(c)}<div class="lesson-actions"><button class="secondary" data-action="prev" ${i<=0?'disabled':''}>← Zurück</button><button class="primary" data-action="complete">${completed(c)?'✓ Erledigt':'Als verstanden markieren'}</button><button class="secondary" data-action="next" ${i>=l.cards.length-1?'disabled':''}>Weiter →</button></div></article></div></main>`)
   }
 
   function library(){return shell(`<main class="page"><div class="library-head"><div><span class="eyebrow">REFERENCE</span><h1>Formel-Library</h1><p>Nur die kuratierten Kernlektionen – ohne künstliche Varianten und Dopplungen.</p></div><button class="secondary" data-action="home">← Home</button></div><input id="search" class="search" value="${esc(state.query)}" placeholder="Formel, Symbol, Thema oder Begriff suchen …"><div id="results" class="library-results">${libraryResults()}</div></main>`)}
@@ -243,8 +286,13 @@ function renderInline(value){
   function enter(){
     try{
       const raw=window.QUANT_LESSONS;
-      state.cards=Array.isArray(raw)?raw:(raw&&Array.isArray(raw.cards)?raw.cards:[]);
-      if(!state.cards.length)throw new Error('Kein kuratierter Datensatz gefunden.');
+      const cards=Array.isArray(raw)?raw:(raw&&Array.isArray(raw.cards)?raw.cards:[]);
+      if(!cards.length)throw new Error('Kein kuratierter Datensatz gefunden.');
+      const coreIdeas=window.QUANT_CORE_IDEAS;
+      if(!coreIdeas||typeof coreIdeas!=="object")throw new Error('Die individuellen Kernideen konnten nicht geladen werden.');
+      const missingCoreIdeas=cards.filter(card=>typeof coreIdeas[card.id]!=="string"||!coreIdeas[card.id].trim());
+      if(missingCoreIdeas.length)throw new Error(`Für ${missingCoreIdeas.length} Lektionen fehlen individuelle Kernideen: ${missingCoreIdeas.map(card=>card.id).join(", ")}`);
+      state.cards=cards.map(card=>({...card,intuition:coreIdeas[card.id]}));
       render();
     }catch(e){root.innerHTML=`<main class="error"><h1>Quant Math konnte nicht geladen werden.</h1><p>${esc(e.message)}</p><p class="muted">Bitte die index.html aus dem ZIP öffnen.</p></main>`}
   }
