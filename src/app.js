@@ -1,4 +1,9 @@
 import "./style.css";
 import "./data.js";
 import "./core-ideas.js";
+import "./exercises/part1.js";
+import "./exercises/part2.js";
+import "./exercises/part3.js";
+import "./exercises/part4.js";
+import "./exercises/part5.js";
 import "./main.js";

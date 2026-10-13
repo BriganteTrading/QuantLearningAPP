@@ -164,3 +164,8 @@ html,body{max-width:100%;overflow-x:hidden}
 .lesson,.lesson *{overflow-wrap:anywhere}
 .lesson pre,.lesson .math-display,.lesson table{max-width:100%;overflow-x:auto}
 @media(max-width:480px){.top{height:auto;min-height:60px;flex-wrap:wrap;gap:8px;padding-top:8px;padding-bottom:8px}.top-actions{flex-wrap:wrap;gap:6px;max-width:100%}.top-actions .icon-btn{padding:8px 10px;font-size:13px}}
+.exercise-card{border-color:#3f6b4f;background:linear-gradient(180deg,#0e1f1a,#0b1725)}
+.exercise-card textarea{width:100%;min-height:110px;resize:vertical;margin:10px 0;padding:14px;border-radius:10px;background:#09131f;border:1px solid #2a4059;color:#edf4fb;outline:none}
+.exercise-card textarea:focus{border-color:#7fe39a;box-shadow:0 0 0 3px #7fe39a20}
+.exercise-card details{margin-top:8px}
+.exercise-solution{padding:2px 0}
